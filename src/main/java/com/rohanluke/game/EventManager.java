@@ -10,8 +10,9 @@ import org.bukkit.event.player.PlayerFishEvent;
 public class EventManager implements Listener {
     @EventHandler
     public void onPlayerTakeDamage(EntityDamageEvent e) {
-        if (e.getEntity() instanceof Player)
-            e.setCancelled(true);
+        if (e.getEntity() instanceof Player) {
+            e.setDamage(0);
+        }
     }
 
     @EventHandler
