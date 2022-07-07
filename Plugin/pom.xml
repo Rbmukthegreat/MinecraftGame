@@ -36,11 +36,9 @@
                 <executions>
                     <execution>
                         <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <outputDirectory>${basedir}/../Server/plugins/</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>

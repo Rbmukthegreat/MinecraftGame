@@ -1,155 +1,946 @@
-[21:18:44] [ServerMain/INFO]: Building unoptimized datafixer
-[21:18:44] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:18:45] [ServerMain/INFO]: Loaded 7 recipes
-[21:18:46] [Server thread/INFO]: Starting minecraft server version 1.19
-[21:18:46] [Server thread/INFO]: Loading properties
-[21:18:46] [Server thread/INFO]: Default game type: SURVIVAL
-[21:18:46] [Server thread/INFO]: Generating keypair
-[21:18:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:18:46] [Server thread/INFO]: Using default channel type
-[21:18:46] [Server thread/INFO]: This server is running CraftBukkit version 3540-Bukkit-0231a37 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
-[21:18:47] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
-[21:18:47] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[21:18:47] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@297e804a]
-[21:18:47] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
-[21:18:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[21:18:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:18:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:18:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[21:18:47] [Server thread/INFO]: [WorldEdit] ====================================================
-[21:18:47] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[21:18:47] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[21:18:47] [Server thread/INFO]: [WorldEdit]   
-[21:18:47] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[21:18:47] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[21:18:47] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[21:18:47] [Server thread/INFO]: [WorldEdit]   
-[21:18:47] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[21:18:47] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[21:18:47] [Server thread/INFO]: [WorldEdit]   
-[21:18:47] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[21:18:47] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[21:18:47] [Server thread/INFO]: [WorldEdit]   
-[21:18:47] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[21:18:47] [Server thread/INFO]: [WorldEdit] ====================================================
-[21:18:47] [Server thread/INFO]: Preparing level "world"
-[21:18:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:18:49] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[21:18:49] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[21:18:49] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[21:18:49] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[21:18:50] [Server thread/INFO]: Time elapsed: 1995 ms
-[21:18:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:18:51] [Worker-Main-32/INFO]: Preparing spawn area: 0%
-[21:18:51] [Worker-Main-32/INFO]: Preparing spawn area: 0%
-[21:18:51] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[21:18:51] [Server thread/INFO]: Time elapsed: 1340 ms
-[21:18:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:18:52] [Worker-Main-32/INFO]: Preparing spawn area: 0%
-[21:18:52] [Worker-Main-32/INFO]: Preparing spawn area: 0%
-[21:18:52] [Server thread/INFO]: Time elapsed: 975 ms
-[21:18:52] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
-[21:18:52] [Server thread/INFO]: Woohoo! my plugin has started!!!
-[21:18:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
-[21:18:52] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[21:18:52] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[21:18:52] [Server thread/INFO]: No kits found to migrate.
-[21:18:53] [Server thread/INFO]: Loaded 38132 items from items.json.
-[21:18:53] [Server thread/INFO]: Using locale en_US
-[21:18:53] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[21:18:53] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[21:18:53] [Server thread/INFO]: Using superperms-based permissions.
-[21:18:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:18:53] [Server thread/INFO]: Done (5.158s)! For help, type "help"
-[21:18:53] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
-[21:18:53] [Craft Scheduler Thread - 1/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
-[21:18:53] [Craft Scheduler Thread - 1/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[21:19:35] [User Authenticator #1/INFO]: UUID of player Roh4n is 3ba96e46-029f-4414-b868-d08f9e025df9
-[21:19:35] [Server thread/INFO]: Roh4n joined the game
-[21:19:35] [Server thread/INFO]: Roh4n[/127.0.0.1:52854] logged in with entity id 243 at ([world]82.84365287549562, 84.0, -166.3754132878907)
-[21:19:43] [Server thread/INFO]: Roh4n issued server command: /smite
-[21:19:45] [Server thread/INFO]: Roh4n issued server command: /smite
-[21:19:47] [Server thread/INFO]: Roh4n issued server command: /smite
-[21:19:48] [Server thread/INFO]: Roh4n issued server command: /smite
-[21:19:48] [Server thread/INFO]: Roh4n issued server command: /smite
-[21:19:49] [Server thread/INFO]: Roh4n issued server command: /smite
-[21:19:49] [Server thread/INFO]: Roh4n issued server command: /smite
-[21:19:49] [Server thread/INFO]: Roh4n issued server command: /smite
-[21:20:12] [Server thread/INFO]: Roh4n issued server command: /effect give @p minecraft:hunger 255
-[21:20:12] [Server thread/INFO]: [Roh4n: Applied effect Hunger to Roh4n]
-[21:20:18] [Server thread/INFO]: Roh4n issued server command: /effect give @p minecraft:hunger 32 2304923
-[21:20:21] [Server thread/INFO]: Roh4n issued server command: /effect give @p minecraft:hunger 32 255
-[21:20:21] [Server thread/INFO]: [Roh4n: Applied effect Hunger to Roh4n]
-[21:20:27] [Server thread/INFO]: Roh4n lost connection: Disconnected
-[21:20:27] [Server thread/INFO]: Roh4n left the game
-[21:21:01] [User Authenticator #2/INFO]: UUID of player Roh4n is 3ba96e46-029f-4414-b868-d08f9e025df9
-[21:21:01] [Server thread/INFO]: Roh4n joined the game
-[21:21:01] [Server thread/INFO]: Roh4n[/127.0.0.1:52938] logged in with entity id 419 at ([world]69.90729405595518, 65.0, -159.93983648420155)
-[21:21:05] [Server thread/INFO]: Roh4n issued server command: /gamemode creative
-[21:22:07] [Server thread/INFO]: Roh4n lost connection: Disconnected
-[21:22:07] [Server thread/INFO]: Roh4n left the game
-[21:25:26] [User Authenticator #3/INFO]: UUID of player wzt is 55b30602-e7e6-4ef1-af7e-5e848fd17838
-[21:25:26] [Server thread/INFO]: wzt joined the game
-[21:25:26] [Server thread/INFO]: wzt[/127.0.0.1:51992] logged in with entity id 1099 at ([world]1.5, 68.0, -212.5)
-[21:25:56] [User Authenticator #4/INFO]: UUID of player Roh4n is 3ba96e46-029f-4414-b868-d08f9e025df9
-[21:25:56] [Server thread/INFO]: Roh4n joined the game
-[21:25:56] [Server thread/INFO]: Roh4n[/127.0.0.1:52018] logged in with entity id 1229 at ([world]69.73964156834195, 66.74293160172489, -245.4204540411388)
-[21:26:06] [Server thread/INFO]: wzt issued server command: /tp
-[21:26:06] [Server thread/INFO]: §cwzt §4was denied access to command.
-[21:28:14] [Server thread/INFO]: Roh4n issued server command: /reload
-[21:28:14] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[21:28:14] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[21:28:14] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
-[21:28:14] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[21:28:14] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
-[21:28:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:28:14] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
-[21:28:15] [Server thread/INFO]: Loaded 7 recipes
-[21:28:15] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
-[21:28:15] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[21:28:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7bf566b2]
-[21:28:15] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
-[21:28:15] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[21:28:15] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:28:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:28:15] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[21:28:15] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[21:28:16] [Server thread/INFO]: [WorldEdit] ====================================================
-[21:28:16] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[21:28:16] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[21:28:16] [Server thread/INFO]: [WorldEdit] ====================================================
-[21:28:16] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
-[21:28:16] [Server thread/INFO]: Woohoo! my plugin has started!!!
-[21:28:16] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
-[21:28:16] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[21:28:16] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[21:28:16] [Server thread/INFO]: No kits found to migrate.
-[21:28:16] [Server thread/INFO]: Loaded 38132 items from items.json.
-[21:28:16] [Server thread/INFO]: Using locale en_US
-[21:28:16] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[21:28:16] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[21:28:16] [Server thread/INFO]: Using superperms-based permissions.
-[21:28:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:28:16] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
-[21:28:16] [Craft Scheduler Thread - 8/INFO]: §6Fetching version information...
-[21:28:16] [Craft Scheduler Thread - 8/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
-[21:28:16] [Craft Scheduler Thread - 8/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[21:29:02] [Server thread/INFO]: wzt lost connection: Disconnected
-[21:29:02] [Server thread/INFO]: wzt left the game
-[21:29:05] [Server thread/INFO]: Roh4n lost connection: Disconnected
-[21:29:05] [Server thread/INFO]: Roh4n left the game
-[21:31:11] [Server thread/INFO]: Stopping the server
-[21:31:11] [Server thread/INFO]: Stopping server
-[21:31:11] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
-[21:31:11] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
-[21:31:11] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:31:11] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
-[21:31:11] [Server thread/INFO]: Saving players
-[21:31:11] [Server thread/INFO]: Saving worlds
-[21:31:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:31:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:31:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:41:49] [ServerMain/INFO]: Building unoptimized datafixer
+[17:41:49] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:41:50] [ServerMain/INFO]: Loaded 7 recipes
+[17:41:51] [Server thread/INFO]: Starting minecraft server version 1.19
+[17:41:51] [Server thread/INFO]: Loading properties
+[17:41:51] [Server thread/INFO]: Default game type: SURVIVAL
+[17:41:51] [Server thread/INFO]: Generating keypair
+[17:41:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:41:51] [Server thread/INFO]: Using default channel type
+[17:41:51] [Server thread/INFO]: This server is running CraftBukkit version 3540-Bukkit-0231a37 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
+[17:41:52] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[17:41:52] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[17:41:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@327c92a2]
+[17:41:52] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[17:41:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[17:41:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:41:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:41:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[17:41:53] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:41:53] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[17:41:53] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[17:41:53] [Server thread/INFO]: [WorldEdit]   
+[17:41:53] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[17:41:53] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[17:41:53] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[17:41:53] [Server thread/INFO]: [WorldEdit]   
+[17:41:53] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[17:41:53] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[17:41:53] [Server thread/INFO]: [WorldEdit]   
+[17:41:53] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[17:41:53] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[17:41:53] [Server thread/INFO]: [WorldEdit]   
+[17:41:53] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[17:41:53] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:41:53] [Server thread/INFO]: Preparing level "world"
+[17:41:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:41:56] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[17:41:56] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[17:41:56] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[17:41:56] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[17:41:56] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[17:41:56] [Server thread/INFO]: Time elapsed: 2552 ms
+[17:41:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:41:57] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:41:57] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:41:57] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:41:58] [Server thread/INFO]: Time elapsed: 1471 ms
+[17:41:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:41:59] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:41:59] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[17:41:59] [Worker-Main-11/INFO]: Preparing spawn area: 71%
+[17:41:59] [Server thread/INFO]: Time elapsed: 1098 ms
+[17:41:59] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[17:41:59] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[17:41:59] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[17:41:59] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[17:41:59] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[17:41:59] [Server thread/INFO]: No kits found to migrate.
+[17:41:59] [Server thread/INFO]: Loaded 38132 items from items.json.
+[17:41:59] [Server thread/INFO]: Using locale en_US
+[17:41:59] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[17:41:59] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[17:41:59] [Server thread/INFO]: Using superperms-based permissions.
+[17:41:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:41:59] [Server thread/INFO]: Done (6.445s)! For help, type "help"
+[17:41:59] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
+[17:42:00] [Craft Scheduler Thread - 1/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[17:42:00] [Craft Scheduler Thread - 1/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:02:43] [User Authenticator #1/INFO]: UUID of player Roh4n is 3ba96e46-029f-4414-b868-d08f9e025df9
+[18:02:44] [Server thread/INFO]: Roh4n joined the game
+[18:02:44] [Server thread/INFO]: Roh4n[/127.0.0.1:58813] logged in with entity id 390 at ([world]21.9570270931475, 64.0, -160.70330830953475)
+[18:03:01] [Server thread/INFO]: Roh4n issued server command: /reload
+[18:03:01] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:03:01] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:03:01] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:03:01] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:03:01] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:03:01] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:03:01] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:03:01] [Server thread/INFO]: Loaded 7 recipes
+[18:03:02] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:03:02] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:03:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@20785fbc]
+[18:03:02] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:03:02] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:03:02] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:03:02] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:03:02] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:03:02] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:03:03] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:03:03] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:03:03] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:03:03] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:03:03] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:03:03] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:03:03] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:03:03] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:03:03] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:03:03] [Server thread/INFO]: No kits found to migrate.
+[18:03:03] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:03:03] [Server thread/INFO]: Using locale en_US
+[18:03:03] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:03:03] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:03:03] [Server thread/INFO]: Using superperms-based permissions.
+[18:03:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:03:03] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
+[18:03:03] [Craft Scheduler Thread - 4/INFO]: §6Fetching version information...
+[18:03:03] [Craft Scheduler Thread - 4/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:03:03] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:03:44] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:03:44] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:03:44] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:03:44] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:03:44] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:03:44] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:03:44] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:03:45] [Server thread/INFO]: Loaded 7 recipes
+[18:03:45] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:03:45] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:03:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@beb2e39]
+[18:03:45] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:03:45] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:03:45] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:03:45] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:03:45] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:03:45] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:03:45] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:03:45] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:03:45] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:03:45] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:03:45] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:03:45] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:03:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:03:45] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:03:46] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:03:46] [Server thread/INFO]: No kits found to migrate.
+[18:03:46] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:03:46] [Server thread/INFO]: Using locale en_US
+[18:03:46] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:03:46] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:03:46] [Server thread/INFO]: Using superperms-based permissions.
+[18:03:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:03:46] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:03:46] [Craft Scheduler Thread - 2/INFO]: §6Fetching version information...
+[18:03:46] [Craft Scheduler Thread - 2/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:03:46] [Craft Scheduler Thread - 2/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:04:57] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:04:57] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:04:57] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:04:57] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:04:57] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:04:57] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:04:57] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:04:57] [Server thread/INFO]: Loaded 7 recipes
+[18:04:57] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:04:57] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:04:57] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@593140ae]
+[18:04:57] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:04:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:04:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:04:57] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:04:57] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:04:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:04:57] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:04:57] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:04:57] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:04:57] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:04:57] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:04:57] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:04:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:04:57] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:04:58] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:04:58] [Server thread/INFO]: No kits found to migrate.
+[18:04:58] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:04:58] [Server thread/INFO]: Using locale en_US
+[18:04:58] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:04:58] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:04:58] [Server thread/INFO]: Using superperms-based permissions.
+[18:04:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:04:58] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:04:58] [Craft Scheduler Thread - 7/INFO]: §6Fetching version information...
+[18:04:58] [Craft Scheduler Thread - 7/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:04:58] [Craft Scheduler Thread - 7/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:07:55] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:07:55] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:07:55] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:07:55] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:07:55] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:07:55] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:07:55] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:07:55] [Server thread/INFO]: Loaded 7 recipes
+[18:07:55] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:07:55] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:07:55] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7bc9bfbc]
+[18:07:55] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:07:55] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:07:55] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:07:56] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:07:56] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:07:56] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:07:56] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:07:56] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:07:56] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:07:56] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:07:56] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:07:56] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:07:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:07:56] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:07:56] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:07:56] [Server thread/INFO]: No kits found to migrate.
+[18:07:56] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:07:56] [Server thread/INFO]: Using locale en_US
+[18:07:56] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:07:56] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:07:56] [Server thread/INFO]: Using superperms-based permissions.
+[18:07:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:07:56] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:07:56] [Craft Scheduler Thread - 10/INFO]: §6Fetching version information...
+[18:07:56] [Craft Scheduler Thread - 10/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:07:56] [Craft Scheduler Thread - 10/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:09:16] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:09:16] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:09:16] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:09:16] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:09:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:09:16] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:09:16] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:09:16] [Server thread/INFO]: Loaded 7 recipes
+[18:09:16] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:09:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:09:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3ac84313]
+[18:09:16] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:09:16] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:09:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:09:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:09:16] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:09:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:09:17] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:09:17] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:09:17] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:09:17] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:09:17] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:09:17] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:09:17] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:09:17] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:09:17] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:09:17] [Server thread/INFO]: No kits found to migrate.
+[18:09:17] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:09:17] [Server thread/INFO]: Using locale en_US
+[18:09:17] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:09:17] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:09:17] [Server thread/INFO]: Using superperms-based permissions.
+[18:09:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:09:17] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:09:17] [Craft Scheduler Thread - 13/INFO]: §6Fetching version information...
+[18:09:17] [Craft Scheduler Thread - 13/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:09:17] [Craft Scheduler Thread - 13/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:10:26] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:10:26] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:10:26] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:10:26] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:10:26] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:10:26] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:10:26] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:10:26] [Server thread/INFO]: Loaded 7 recipes
+[18:10:26] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:10:26] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:10:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@248f9a61]
+[18:10:26] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:10:26] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:10:26] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:10:26] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:10:26] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:10:26] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:10:27] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:10:27] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:10:27] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:10:27] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:10:27] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:10:27] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:10:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:10:27] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:10:27] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:10:27] [Server thread/INFO]: No kits found to migrate.
+[18:10:27] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:10:27] [Server thread/INFO]: Using locale en_US
+[18:10:27] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:10:27] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:10:27] [Server thread/INFO]: Using superperms-based permissions.
+[18:10:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:10:27] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:10:27] [Craft Scheduler Thread - 16/INFO]: §6Fetching version information...
+[18:10:27] [Craft Scheduler Thread - 16/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:10:27] [Craft Scheduler Thread - 16/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:11:28] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:11:28] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:11:28] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:11:28] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:11:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:11:28] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:11:28] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:11:28] [Server thread/INFO]: Loaded 7 recipes
+[18:11:28] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:11:28] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:11:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4df0df7a]
+[18:11:29] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:11:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:11:29] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:11:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:11:29] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:11:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:11:29] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:11:29] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:11:29] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:11:29] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:11:29] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:11:29] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:11:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:11:29] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:11:29] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:11:29] [Server thread/INFO]: No kits found to migrate.
+[18:11:29] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:11:29] [Server thread/INFO]: Using locale en_US
+[18:11:29] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:11:29] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:11:29] [Server thread/INFO]: Using superperms-based permissions.
+[18:11:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:11:29] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:11:29] [Craft Scheduler Thread - 19/INFO]: §6Fetching version information...
+[18:11:29] [Craft Scheduler Thread - 19/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:11:29] [Craft Scheduler Thread - 19/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:11:56] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:11:56] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:11:56] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:11:56] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:11:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:11:56] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:11:56] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:11:56] [Server thread/INFO]: Loaded 7 recipes
+[18:11:56] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:11:56] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:11:57] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2fa0bc38]
+[18:11:57] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:11:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:11:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:11:57] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:11:57] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:11:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:11:57] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:11:57] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:11:57] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:11:57] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:11:57] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:11:57] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:11:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:11:57] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:11:57] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:11:57] [Server thread/INFO]: No kits found to migrate.
+[18:11:57] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:11:57] [Server thread/INFO]: Using locale en_US
+[18:11:57] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:11:57] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:11:57] [Server thread/INFO]: Using superperms-based permissions.
+[18:11:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:11:57] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:11:57] [Craft Scheduler Thread - 18/INFO]: §6Fetching version information...
+[18:11:57] [Craft Scheduler Thread - 18/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:11:57] [Craft Scheduler Thread - 18/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:12:16] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:12:16] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:12:16] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:12:16] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:12:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:12:16] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:12:16] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:12:16] [Server thread/INFO]: Loaded 7 recipes
+[18:12:16] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:12:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:12:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@544943b]
+[18:12:16] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:12:16] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:12:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:12:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:12:16] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:12:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:12:17] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:12:17] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:12:17] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:12:17] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:12:17] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:12:17] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:12:17] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:12:17] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:12:17] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:12:17] [Server thread/INFO]: No kits found to migrate.
+[18:12:17] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:12:17] [Server thread/INFO]: Using locale en_US
+[18:12:17] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:12:17] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:12:17] [Server thread/INFO]: Using superperms-based permissions.
+[18:12:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:12:17] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:12:17] [Craft Scheduler Thread - 17/INFO]: §6Fetching version information...
+[18:12:17] [Craft Scheduler Thread - 17/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:12:17] [Craft Scheduler Thread - 17/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:12:27] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:12:27] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:12:27] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:12:27] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:12:27] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:12:27] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:12:27] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:12:27] [Server thread/INFO]: Loaded 7 recipes
+[18:12:27] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:12:27] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:12:27] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5d60f7bf]
+[18:12:27] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:12:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:12:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:12:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:12:27] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:12:27] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:12:28] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:12:28] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:12:28] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:12:28] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:12:28] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:12:28] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:12:28] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:12:28] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:12:28] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:12:28] [Server thread/INFO]: No kits found to migrate.
+[18:12:28] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:12:28] [Server thread/INFO]: Using locale en_US
+[18:12:28] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:12:28] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:12:28] [Server thread/INFO]: Using superperms-based permissions.
+[18:12:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:12:28] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:12:28] [Craft Scheduler Thread - 19/INFO]: §6Fetching version information...
+[18:12:28] [Craft Scheduler Thread - 19/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:12:28] [Craft Scheduler Thread - 19/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:14:23] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:14:23] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:14:23] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:14:23] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:14:23] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:14:23] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:14:23] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:14:23] [Server thread/INFO]: Loaded 7 recipes
+[18:14:23] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:14:23] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:14:24] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4454f0bd]
+[18:14:24] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:14:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:14:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:14:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:14:24] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:14:24] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:14:24] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:14:24] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:14:24] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:14:24] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:14:24] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:14:24] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:14:24] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:14:24] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:14:24] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:14:24] [Server thread/INFO]: No kits found to migrate.
+[18:14:24] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:14:24] [Server thread/INFO]: Using locale en_US
+[18:14:24] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:14:24] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:14:24] [Server thread/INFO]: Using superperms-based permissions.
+[18:14:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:14:24] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:14:24] [Craft Scheduler Thread - 22/INFO]: §6Fetching version information...
+[18:14:24] [Craft Scheduler Thread - 22/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:14:24] [Craft Scheduler Thread - 22/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:18:48] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:18:48] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:18:48] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:18:48] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:18:48] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:18:48] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:18:48] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:18:48] [Server thread/INFO]: Loaded 7 recipes
+[18:18:48] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:18:48] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:18:48] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@203bf4d7]
+[18:18:48] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:18:48] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:18:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:18:48] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:18:48] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:18:48] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:18:49] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:18:49] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:18:49] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:18:49] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:18:49] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:18:49] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:18:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:18:49] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:18:49] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:18:49] [Server thread/INFO]: No kits found to migrate.
+[18:18:49] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:18:49] [Server thread/INFO]: Using locale en_US
+[18:18:49] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:18:49] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:18:49] [Server thread/INFO]: Using superperms-based permissions.
+[18:18:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:18:49] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:18:49] [Craft Scheduler Thread - 25/INFO]: §6Fetching version information...
+[18:18:49] [Craft Scheduler Thread - 25/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:18:49] [Craft Scheduler Thread - 25/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:19:33] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:19:33] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:19:33] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:19:33] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:19:33] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:19:33] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:19:33] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:19:33] [Server thread/INFO]: Loaded 7 recipes
+[18:19:33] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:19:33] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:19:33] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@16074ba2]
+[18:19:33] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:19:33] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:19:33] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:19:33] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:19:33] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:19:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:19:33] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:19:33] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:19:33] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:19:33] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:19:33] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:19:33] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:19:33] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:19:33] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:19:34] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:19:34] [Server thread/INFO]: No kits found to migrate.
+[18:19:34] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:19:34] [Server thread/INFO]: Using locale en_US
+[18:19:34] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:19:34] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:19:34] [Server thread/INFO]: Using superperms-based permissions.
+[18:19:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:19:34] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:19:34] [Craft Scheduler Thread - 24/INFO]: §6Fetching version information...
+[18:19:34] [Craft Scheduler Thread - 24/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:19:34] [Craft Scheduler Thread - 24/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:20:34] [Server thread/INFO]: Roh4n issued server command: /rl
+[18:20:34] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:20:34] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:20:34] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:20:34] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:20:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:20:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:20:34] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:20:34] [Server thread/INFO]: Loaded 7 recipes
+[18:20:35] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:20:35] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:20:35] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7878adb3]
+[18:20:35] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:20:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:20:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:20:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:20:35] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:20:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:20:35] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:20:35] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:20:35] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:20:35] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:20:35] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:20:35] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:20:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:20:35] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:20:35] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:20:35] [Server thread/INFO]: No kits found to migrate.
+[18:20:35] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:20:35] [Server thread/INFO]: Using locale en_US
+[18:20:35] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:20:35] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:20:35] [Server thread/INFO]: Using superperms-based permissions.
+[18:20:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:20:35] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
+[18:20:35] [Craft Scheduler Thread - 28/INFO]: §6Fetching version information...
+[18:20:36] [Craft Scheduler Thread - 28/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:20:36] [Craft Scheduler Thread - 28/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:21:36] [Server thread/INFO]: Roh4n issued server command: /rl
+[18:21:36] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:21:36] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:21:36] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:21:36] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:21:36] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:21:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:21:36] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:21:36] [Server thread/INFO]: Loaded 7 recipes
+[18:21:37] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:21:37] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:21:37] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@40fa2830]
+[18:21:37] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:21:37] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:21:37] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:21:37] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:21:37] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:21:37] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:21:37] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:21:37] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:21:37] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:21:37] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:21:37] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:21:37] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:21:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:21:37] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:21:37] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:21:37] [Server thread/INFO]: No kits found to migrate.
+[18:21:37] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:21:37] [Server thread/INFO]: Using locale en_US
+[18:21:37] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:21:37] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:21:37] [Server thread/INFO]: Using superperms-based permissions.
+[18:21:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:21:38] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
+[18:21:38] [Craft Scheduler Thread - 31/INFO]: §6Fetching version information...
+[18:21:38] [Craft Scheduler Thread - 31/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:21:38] [Craft Scheduler Thread - 31/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:22:46] [Server thread/INFO]: Roh4n issued server command: /rl
+[18:22:46] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:22:46] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:22:46] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:22:46] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:22:46] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:22:46] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:22:46] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:22:46] [Server thread/INFO]: Loaded 7 recipes
+[18:22:47] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:22:47] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:22:47] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@b2c6072]
+[18:22:47] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:22:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:22:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:22:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:22:47] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:22:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:22:47] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:22:47] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:22:47] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:22:47] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:22:47] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:22:47] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:22:47] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:22:47] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:22:47] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:22:47] [Server thread/INFO]: No kits found to migrate.
+[18:22:47] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:22:47] [Server thread/INFO]: Using locale en_US
+[18:22:47] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:22:47] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:22:47] [Server thread/INFO]: Using superperms-based permissions.
+[18:22:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:22:47] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
+[18:22:47] [Craft Scheduler Thread - 34/INFO]: §6Fetching version information...
+[18:22:48] [Craft Scheduler Thread - 34/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:22:48] [Craft Scheduler Thread - 34/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:35:12] [Server thread/INFO]: Roh4n lost connection: Disconnected
+[18:35:12] [Server thread/INFO]: Roh4n left the game
+[18:35:16] [User Authenticator #2/INFO]: UUID of player wzt is 55b30602-e7e6-4ef1-af7e-5e848fd17838
+[18:35:16] [Server thread/INFO]: wzt joined the game
+[18:35:17] [Server thread/INFO]: wzt[/127.0.0.1:59092] logged in with entity id 6852 at ([world]15.717831460349819, 63.0, -162.41789641661305)
+[18:35:19] [Server thread/INFO]: wzt issued server command: /tp
+[18:35:19] [Server thread/INFO]: §cwzt §4was denied access to command.
+[18:35:21] [Server thread/INFO]: Made wzt a server operator
+[18:35:36] [User Authenticator #3/INFO]: UUID of player Roh4n is 3ba96e46-029f-4414-b868-d08f9e025df9
+[18:35:36] [Server thread/INFO]: Roh4n joined the game
+[18:35:36] [Server thread/INFO]: Roh4n[/127.0.0.1:59123] logged in with entity id 6906 at ([world]43.88626444169782, 84.64463549021356, -166.03107727720524)
+[18:35:52] [Server thread/INFO]: wzt issued server command: /gamemode survival Roh4n
+[18:35:58] [Server thread/INFO]: Roh4n issued server command: /give @a snowball 64
+[18:36:05] [Server thread/INFO]: Roh4n issued server command: /give @a snowball 64
+[18:36:08] [Server thread/INFO]: Roh4n issued server command: /give @p
+[18:36:11] [Server thread/INFO]: Roh4n issued server command: /give @p item
+[18:36:17] [Server thread/INFO]: Roh4n issued server command: /give @p stone_axe
+[18:36:55] [Server thread/INFO]: Roh4n issued server command: /minecraft:give @a snowball 64
+[18:36:55] [Server thread/INFO]: [Roh4n: Gave 64 [Snowball] to 2]
+[18:37:11] [Server thread/INFO]: Roh4n issued server command: /reload
+[18:37:11] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:37:11] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:37:11] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[18:37:11] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:37:11] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:37:11] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:37:11] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[18:37:12] [Server thread/INFO]: Loaded 7 recipes
+[18:37:12] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[18:37:12] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:37:12] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@76f3d1b5]
+[18:37:12] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[18:37:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:37:12] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:37:12] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:37:12] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:37:12] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:37:12] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:37:12] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:37:12] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:37:12] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:37:12] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[18:37:12] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[18:37:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[18:37:12] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:37:13] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:37:13] [Server thread/INFO]: No kits found to migrate.
+[18:37:13] [Server thread/INFO]: Loaded 38132 items from items.json.
+[18:37:13] [Server thread/INFO]: Using locale en_US
+[18:37:13] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:37:13] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:37:13] [Server thread/INFO]: Using superperms-based permissions.
+[18:37:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:37:13] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
+[18:37:13] [Craft Scheduler Thread - 39/INFO]: §6Fetching version information...
+[18:37:13] [Craft Scheduler Thread - 39/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[18:37:13] [Craft Scheduler Thread - 39/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[19:12:08] [Server thread/INFO]: Roh4n issued server command: /gm c
+[19:15:36] [Server thread/INFO]: wzt issued server command: /gamemode creative
+[19:16:24] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[19:16:24] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[19:16:24] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[19:16:24] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[19:16:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[19:16:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:16:24] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[19:16:24] [Server thread/INFO]: Loaded 7 recipes
+[19:16:25] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[19:16:25] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[19:16:25] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2bd7d379]
+[19:16:25] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[19:16:25] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[19:16:25] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:16:25] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:16:25] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[19:16:25] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[19:16:25] [Server thread/INFO]: [WorldEdit] ====================================================
+[19:16:25] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[19:16:25] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[19:16:25] [Server thread/INFO]: [WorldEdit] ====================================================
+[19:16:25] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[19:16:25] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[19:16:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[19:16:25] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[19:16:25] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[19:16:25] [Server thread/INFO]: No kits found to migrate.
+[19:16:25] [Server thread/INFO]: Loaded 38132 items from items.json.
+[19:16:25] [Server thread/INFO]: Using locale en_US
+[19:16:25] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[19:16:25] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[19:16:25] [Server thread/INFO]: Using superperms-based permissions.
+[19:16:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:16:25] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[19:16:25] [Craft Scheduler Thread - 42/INFO]: §6Fetching version information...
+[19:16:26] [Craft Scheduler Thread - 42/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[19:16:26] [Craft Scheduler Thread - 42/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[19:18:10] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[19:18:10] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[19:18:10] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[19:18:10] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[19:18:10] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[19:18:10] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:18:10] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[19:18:10] [Server thread/INFO]: Loaded 7 recipes
+[19:18:11] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[19:18:11] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[19:18:11] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1f567e52]
+[19:18:11] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[19:18:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[19:18:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:18:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:18:11] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[19:18:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[19:18:11] [Server thread/INFO]: [WorldEdit] ====================================================
+[19:18:11] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[19:18:11] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[19:18:11] [Server thread/INFO]: [WorldEdit] ====================================================
+[19:18:11] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[19:18:11] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[19:18:11] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[19:18:11] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[19:18:11] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[19:18:11] [Server thread/INFO]: No kits found to migrate.
+[19:18:12] [Server thread/INFO]: Loaded 38132 items from items.json.
+[19:18:12] [Server thread/INFO]: Using locale en_US
+[19:18:12] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[19:18:12] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[19:18:12] [Server thread/INFO]: Using superperms-based permissions.
+[19:18:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:18:12] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[19:18:12] [Craft Scheduler Thread - 45/INFO]: §6Fetching version information...
+[19:18:12] [Craft Scheduler Thread - 45/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[19:18:12] [Craft Scheduler Thread - 45/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[19:18:59] [Netty Server IO #11/INFO]: <[0;31;22mRoh4n[m> sdf[m
+[19:19:01] [Netty Server IO #8/INFO]: <[0;31;22mwzt[m> sdf[m
+[19:22:05] [Server thread/INFO]: wzt issued server command: /thru
+[19:22:05] [Server thread/WARN]: wzt moved too quickly! 3.800000011920929,-12.200000047683716,-0.002013621918621311
+[19:22:41] [Server thread/INFO]: wzt issued server command: /thru
+[19:22:41] [Server thread/WARN]: wzt moved too quickly! 1.800000011920929,-11.0,0.37856706901953885
+[19:24:45] [Server thread/INFO]: wzt issued server command: //wamnd
+[19:24:46] [Server thread/INFO]: wzt issued server command: //wand
+[19:24:52] [Server thread/INFO]: wzt issued server command: //set air
+[19:25:04] [Server thread/INFO]: wzt issued server command: /up 30
+[19:25:04] [Server thread/WARN]: wzt moved too quickly! -0.1787503787883935,30.0,0.06864811209007371
+[19:25:04] [Server thread/WARN]: wzt moved too quickly! -0.1787503787883935,30.0,0.06864811209007371
+[19:25:04] [Server thread/WARN]: wzt moved too quickly! -0.1787503787883935,30.0,0.06864811209007371
+[19:25:08] [Server thread/INFO]: wzt issued server command: //set sand
+[19:25:18] [Server thread/INFO]: wzt issued server command: //set sand
+[19:26:50] [Server thread/INFO]: wzt issued server command: //set air
+[19:27:00] [Server thread/INFO]: wzt issued server command: /up 30
+[19:27:02] [Server thread/INFO]: wzt issued server command: //set sand
+[19:27:05] [Server thread/INFO]: wzt issued server command: //und
+[19:27:07] [Server thread/INFO]: wzt issued server command: //undo
+[19:27:21] [Server thread/INFO]: wzt issued server command: /up 30
+[19:27:22] [Server thread/INFO]: wzt issued server command: /up 30
+[19:27:24] [Server thread/INFO]: wzt issued server command: /up 1
+[19:27:26] [Server thread/INFO]: wzt issued server command: /up31
+[19:27:28] [Server thread/INFO]: wzt issued server command: /up 31
+[19:27:33] [Server thread/INFO]: wzt issued server command: //set sand
+[19:28:17] [Server thread/INFO]: wzt issued server command: //set air
+[19:28:30] [Server thread/INFO]: wzt issued server command: /up 60
+[19:28:30] [Server thread/WARN]: wzt moved too quickly! -0.19999998807907104,60.0,0.1629837330849
+[19:28:30] [Server thread/WARN]: wzt moved too quickly! -0.19999998807907104,60.0,0.1629837330849
+[19:28:30] [Server thread/WARN]: wzt moved too quickly! -0.19999998807907104,60.0,0.1629837330849
+[19:28:30] [Server thread/WARN]: wzt moved too quickly! -0.19999998807907104,60.0,0.1629837330849
+[19:28:32] [Server thread/INFO]: wzt issued server command: //set sand
+[19:32:06] [Server thread/INFO]: wzt lost connection: Disconnected
+[19:32:06] [Server thread/INFO]: wzt left the game
+[19:32:10] [User Authenticator #4/INFO]: UUID of player wzt is 55b30602-e7e6-4ef1-af7e-5e848fd17838
+[19:32:10] [Server thread/INFO]: wzt joined the game
+[19:32:10] [Server thread/INFO]: wzt[/127.0.0.1:60274] logged in with entity id 74494 at ([world]39.81962292949229, 110.29395761614919, -164.3029955558045)
+[19:32:13] [Server thread/INFO]: wzt lost connection: Disconnected
+[19:32:13] [Server thread/INFO]: wzt left the game
+[19:32:24] [User Authenticator #5/INFO]: UUID of player wzt is 55b30602-e7e6-4ef1-af7e-5e848fd17838
+[19:32:24] [Server thread/INFO]: wzt joined the game
+[19:32:24] [Server thread/INFO]: wzt[/192.168.4.29:60280] logged in with entity id 74535 at ([world]39.81962292949229, 110.29395761614919, -164.3029955558045)
+[19:33:05] [Server thread/INFO]: wzt lost connection: Disconnected
+[19:33:05] [Server thread/INFO]: wzt left the game
+[19:33:16] [User Authenticator #6/INFO]: UUID of player wzt is 55b30602-e7e6-4ef1-af7e-5e848fd17838
+[19:33:16] [Server thread/INFO]: wzt joined the game
+[19:33:16] [Server thread/INFO]: wzt[/192.182.150.245:60296] logged in with entity id 74663 at ([world]39.81962292949229, 110.29395761614919, -164.3029955558045)
+[19:40:09] [Server thread/INFO]: wzt issued server command: /rl
+[19:40:09] [Server thread/INFO]: wzt: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[19:40:09] [Server thread/INFO]: wzt: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[19:40:09] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[19:40:09] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[19:40:09] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[19:40:09] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:40:09] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[19:40:09] [Server thread/INFO]: Loaded 7 recipes
+[19:40:10] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[19:40:10] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[19:40:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@73d3e84e]
+[19:40:10] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[19:40:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[19:40:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:40:10] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:40:10] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[19:40:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[19:40:10] [Server thread/INFO]: [WorldEdit] ====================================================
+[19:40:10] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[19:40:10] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[19:40:10] [Server thread/INFO]: [WorldEdit] ====================================================
+[19:40:10] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[19:40:10] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[19:40:10] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[19:40:10] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[19:40:10] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[19:40:10] [Server thread/INFO]: No kits found to migrate.
+[19:40:10] [Server thread/INFO]: Loaded 38132 items from items.json.
+[19:40:10] [Server thread/INFO]: Using locale en_US
+[19:40:10] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[19:40:10] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[19:40:10] [Server thread/INFO]: Using superperms-based permissions.
+[19:40:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:40:10] [Server thread/INFO]: wzt: [0;32;1mReload complete.[m
+[19:40:10] [Craft Scheduler Thread - 50/INFO]: §6Fetching version information...
+[19:40:11] [Craft Scheduler Thread - 50/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[19:40:11] [Craft Scheduler Thread - 50/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[19:40:16] [Server thread/INFO]: wzt issued server command: /gamemode creative
+[19:42:45] [Server thread/INFO]: wzt issued server command: /rl
+[19:42:45] [Server thread/INFO]: wzt: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[19:42:45] [Server thread/INFO]: wzt: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[19:42:45] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[19:42:45] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[19:42:45] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[19:42:45] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:42:45] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[19:42:45] [Server thread/INFO]: Loaded 7 recipes
+[19:42:45] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[19:42:45] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[19:42:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@50814f61]
+[19:42:45] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[19:42:45] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[19:42:45] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:42:45] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:42:45] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[19:42:45] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[19:42:46] [Server thread/INFO]: [WorldEdit] ====================================================
+[19:42:46] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[19:42:46] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[19:42:46] [Server thread/INFO]: [WorldEdit] ====================================================
+[19:42:46] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[19:42:46] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[19:42:46] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[19:42:46] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[19:42:46] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[19:42:46] [Server thread/INFO]: No kits found to migrate.
+[19:42:46] [Server thread/INFO]: Loaded 38132 items from items.json.
+[19:42:46] [Server thread/INFO]: Using locale en_US
+[19:42:46] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[19:42:46] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[19:42:46] [Server thread/INFO]: Using superperms-based permissions.
+[19:42:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:42:46] [Server thread/INFO]: wzt: [0;32;1mReload complete.[m
+[19:42:46] [Craft Scheduler Thread - 53/INFO]: §6Fetching version information...
+[19:42:46] [Craft Scheduler Thread - 53/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[19:42:46] [Craft Scheduler Thread - 53/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[19:44:15] [Server thread/INFO]: wzt issued server command: /gm c
+[19:44:21] [Server thread/INFO]: Roh4n issued server command: /gm c
+[19:44:50] [Server thread/INFO]: wzt lost connection: Disconnected
+[19:44:50] [Server thread/INFO]: wzt left the game
+[19:44:53] [Server thread/INFO]: Roh4n lost connection: Disconnected
+[19:44:53] [Server thread/INFO]: Roh4n left the game
+[19:44:59] [Server thread/INFO]: Stopping the server
+[19:44:59] [Server thread/INFO]: Stopping server
+[19:44:59] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[19:44:59] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[19:44:59] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:44:59] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[19:44:59] [Server thread/INFO]: Saving players
+[19:44:59] [Server thread/INFO]: Saving worlds
+[19:45:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:45:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:45:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:45:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:45:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:45:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:45:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

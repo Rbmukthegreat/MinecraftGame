@@ -11,6 +11,7 @@ public final class Main extends JavaPlugin implements Listener {
         // Plugin startup logic
         System.out.println("Woohoo! my plugin has started!!!");
         Bukkit.getPluginManager().registerEvents(new EventManager(), this);
+
     }
 
     @Override
