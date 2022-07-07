@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1657081742512
+  login: 1657081526998
+money: '0'
+last-account-name: wzt
+logoutlocation:
+  world: 4f49dbcb-7062-49ff-8e3f-ab7b9b65da5b
+  world-name: world
+  x: 15.699999988079071
+  y: 62.0
+  z: -162.39480418019355
+  yaw: 142.36680603027344
+  pitch: 41.20928955078125

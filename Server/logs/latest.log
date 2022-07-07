@@ -1,0 +1,155 @@
+[21:18:44] [ServerMain/INFO]: Building unoptimized datafixer
+[21:18:44] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:18:45] [ServerMain/INFO]: Loaded 7 recipes
+[21:18:46] [Server thread/INFO]: Starting minecraft server version 1.19
+[21:18:46] [Server thread/INFO]: Loading properties
+[21:18:46] [Server thread/INFO]: Default game type: SURVIVAL
+[21:18:46] [Server thread/INFO]: Generating keypair
+[21:18:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:18:46] [Server thread/INFO]: Using default channel type
+[21:18:46] [Server thread/INFO]: This server is running CraftBukkit version 3540-Bukkit-0231a37 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
+[21:18:47] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[21:18:47] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[21:18:47] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@297e804a]
+[21:18:47] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[21:18:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[21:18:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:18:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:18:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[21:18:47] [Server thread/INFO]: [WorldEdit] ====================================================
+[21:18:47] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[21:18:47] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[21:18:47] [Server thread/INFO]: [WorldEdit]   
+[21:18:47] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[21:18:47] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[21:18:47] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[21:18:47] [Server thread/INFO]: [WorldEdit]   
+[21:18:47] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[21:18:47] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[21:18:47] [Server thread/INFO]: [WorldEdit]   
+[21:18:47] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[21:18:47] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[21:18:47] [Server thread/INFO]: [WorldEdit]   
+[21:18:47] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[21:18:47] [Server thread/INFO]: [WorldEdit] ====================================================
+[21:18:47] [Server thread/INFO]: Preparing level "world"
+[21:18:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:18:49] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[21:18:49] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[21:18:49] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[21:18:49] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[21:18:50] [Server thread/INFO]: Time elapsed: 1995 ms
+[21:18:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:18:51] [Worker-Main-32/INFO]: Preparing spawn area: 0%
+[21:18:51] [Worker-Main-32/INFO]: Preparing spawn area: 0%
+[21:18:51] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[21:18:51] [Server thread/INFO]: Time elapsed: 1340 ms
+[21:18:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:18:52] [Worker-Main-32/INFO]: Preparing spawn area: 0%
+[21:18:52] [Worker-Main-32/INFO]: Preparing spawn area: 0%
+[21:18:52] [Server thread/INFO]: Time elapsed: 975 ms
+[21:18:52] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[21:18:52] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[21:18:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[21:18:52] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[21:18:52] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[21:18:52] [Server thread/INFO]: No kits found to migrate.
+[21:18:53] [Server thread/INFO]: Loaded 38132 items from items.json.
+[21:18:53] [Server thread/INFO]: Using locale en_US
+[21:18:53] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[21:18:53] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[21:18:53] [Server thread/INFO]: Using superperms-based permissions.
+[21:18:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:18:53] [Server thread/INFO]: Done (5.158s)! For help, type "help"
+[21:18:53] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
+[21:18:53] [Craft Scheduler Thread - 1/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[21:18:53] [Craft Scheduler Thread - 1/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[21:19:35] [User Authenticator #1/INFO]: UUID of player Roh4n is 3ba96e46-029f-4414-b868-d08f9e025df9
+[21:19:35] [Server thread/INFO]: Roh4n joined the game
+[21:19:35] [Server thread/INFO]: Roh4n[/127.0.0.1:52854] logged in with entity id 243 at ([world]82.84365287549562, 84.0, -166.3754132878907)
+[21:19:43] [Server thread/INFO]: Roh4n issued server command: /smite
+[21:19:45] [Server thread/INFO]: Roh4n issued server command: /smite
+[21:19:47] [Server thread/INFO]: Roh4n issued server command: /smite
+[21:19:48] [Server thread/INFO]: Roh4n issued server command: /smite
+[21:19:48] [Server thread/INFO]: Roh4n issued server command: /smite
+[21:19:49] [Server thread/INFO]: Roh4n issued server command: /smite
+[21:19:49] [Server thread/INFO]: Roh4n issued server command: /smite
+[21:19:49] [Server thread/INFO]: Roh4n issued server command: /smite
+[21:20:12] [Server thread/INFO]: Roh4n issued server command: /effect give @p minecraft:hunger 255
+[21:20:12] [Server thread/INFO]: [Roh4n: Applied effect Hunger to Roh4n]
+[21:20:18] [Server thread/INFO]: Roh4n issued server command: /effect give @p minecraft:hunger 32 2304923
+[21:20:21] [Server thread/INFO]: Roh4n issued server command: /effect give @p minecraft:hunger 32 255
+[21:20:21] [Server thread/INFO]: [Roh4n: Applied effect Hunger to Roh4n]
+[21:20:27] [Server thread/INFO]: Roh4n lost connection: Disconnected
+[21:20:27] [Server thread/INFO]: Roh4n left the game
+[21:21:01] [User Authenticator #2/INFO]: UUID of player Roh4n is 3ba96e46-029f-4414-b868-d08f9e025df9
+[21:21:01] [Server thread/INFO]: Roh4n joined the game
+[21:21:01] [Server thread/INFO]: Roh4n[/127.0.0.1:52938] logged in with entity id 419 at ([world]69.90729405595518, 65.0, -159.93983648420155)
+[21:21:05] [Server thread/INFO]: Roh4n issued server command: /gamemode creative
+[21:22:07] [Server thread/INFO]: Roh4n lost connection: Disconnected
+[21:22:07] [Server thread/INFO]: Roh4n left the game
+[21:25:26] [User Authenticator #3/INFO]: UUID of player wzt is 55b30602-e7e6-4ef1-af7e-5e848fd17838
+[21:25:26] [Server thread/INFO]: wzt joined the game
+[21:25:26] [Server thread/INFO]: wzt[/127.0.0.1:51992] logged in with entity id 1099 at ([world]1.5, 68.0, -212.5)
+[21:25:56] [User Authenticator #4/INFO]: UUID of player Roh4n is 3ba96e46-029f-4414-b868-d08f9e025df9
+[21:25:56] [Server thread/INFO]: Roh4n joined the game
+[21:25:56] [Server thread/INFO]: Roh4n[/127.0.0.1:52018] logged in with entity id 1229 at ([world]69.73964156834195, 66.74293160172489, -245.4204540411388)
+[21:26:06] [Server thread/INFO]: wzt issued server command: /tp
+[21:26:06] [Server thread/INFO]: §cwzt §4was denied access to command.
+[21:28:14] [Server thread/INFO]: Roh4n issued server command: /reload
+[21:28:14] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[21:28:14] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[21:28:14] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[21:28:14] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[21:28:14] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[21:28:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:28:14] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[21:28:15] [Server thread/INFO]: Loaded 7 recipes
+[21:28:15] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[21:28:15] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[21:28:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7bf566b2]
+[21:28:15] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[21:28:15] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[21:28:15] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:28:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:28:15] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[21:28:15] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[21:28:16] [Server thread/INFO]: [WorldEdit] ====================================================
+[21:28:16] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[21:28:16] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[21:28:16] [Server thread/INFO]: [WorldEdit] ====================================================
+[21:28:16] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[21:28:16] [Server thread/INFO]: Woohoo! my plugin has started!!!
+[21:28:16] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[21:28:16] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[21:28:16] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[21:28:16] [Server thread/INFO]: No kits found to migrate.
+[21:28:16] [Server thread/INFO]: Loaded 38132 items from items.json.
+[21:28:16] [Server thread/INFO]: Using locale en_US
+[21:28:16] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[21:28:16] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[21:28:16] [Server thread/INFO]: Using superperms-based permissions.
+[21:28:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:28:16] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
+[21:28:16] [Craft Scheduler Thread - 8/INFO]: §6Fetching version information...
+[21:28:16] [Craft Scheduler Thread - 8/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
+[21:28:16] [Craft Scheduler Thread - 8/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[21:29:02] [Server thread/INFO]: wzt lost connection: Disconnected
+[21:29:02] [Server thread/INFO]: wzt left the game
+[21:29:05] [Server thread/INFO]: Roh4n lost connection: Disconnected
+[21:29:05] [Server thread/INFO]: Roh4n left the game
+[21:31:11] [Server thread/INFO]: Stopping the server
+[21:31:11] [Server thread/INFO]: Stopping server
+[21:31:11] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
+[21:31:11] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[21:31:11] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:31:11] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[21:31:11] [Server thread/INFO]: Saving players
+[21:31:11] [Server thread/INFO]: Saving worlds
+[21:31:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:31:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:31:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
