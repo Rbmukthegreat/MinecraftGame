@@ -4,3 +4,7 @@ main: com.rohanluke.game.Main
 api-version: 1.19
 authors: [ Rohan, Luke ]
 description: This is a game that Luke and I are developing. It is not made yet, so the description is small.
+commands:
+  toggleGame:
+    description: starts the game
+  sendTitle:

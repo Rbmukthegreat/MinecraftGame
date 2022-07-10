@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.0.0.1
+ip-address: ''
 afk: false
 socialspy: false
 npc: false
@@ -16,15 +16,14 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1657081745963
-  login: 1657081556448
+  logout: 1657400654533
+  login: 0
 money: '0'
-last-account-name: Roh4n
 logoutlocation:
   world: 4f49dbcb-7062-49ff-8e3f-ab7b9b65da5b
   world-name: world
-  x: 21.9570270931475
-  y: 64.0
-  z: -160.70330830953475
-  yaw: 92.56551361083984
-  pitch: 15.837854385375977
+  x: -12.414183710775138
+  y: 104.0
+  z: -157.23401654141887
+  yaw: -97.62738037109375
+  pitch: 35.19804763793945
