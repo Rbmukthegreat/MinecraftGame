@@ -1,9 +1,9 @@
-package com.rohanluke.runnables;
+package com.rohanluke.repeatingtasks;
 
 import com.rohanluke.game.Main;
 import org.bukkit.Bukkit;
 
-public abstract class GameRunnable implements Runnable {
+public abstract class GameTask implements Runnable {
 
     public final Main main;
 
@@ -22,7 +22,7 @@ public abstract class GameRunnable implements Runnable {
 
     public void onStop() {}
 
-    public GameRunnable(Main main, long delay, long period) {
+    public GameTask(Main main, long delay, long period) {
         this.main = main;
         this.delay = delay;
         this.period = period;

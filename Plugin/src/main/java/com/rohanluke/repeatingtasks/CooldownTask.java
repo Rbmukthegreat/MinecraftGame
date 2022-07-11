@@ -1,13 +1,13 @@
-package com.rohanluke.runnables;
+package com.rohanluke.repeatingtasks;
 
 import com.rohanluke.game.Main;
 import org.bukkit.entity.Player;
 
 import java.util.HashMap;
 
-public class CooldownRunnable extends GameRunnable {
+public class CooldownTask extends GameTask {
 
-    public CooldownRunnable(Main main, long delay, long period) {
+    public CooldownTask(Main main, long delay, long period) {
         super(main, delay, period);
     }
 

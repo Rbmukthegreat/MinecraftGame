@@ -1,481 +1,1557 @@
-[13:19:36] [ServerMain/INFO]: Building unoptimized datafixer
-[13:19:36] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:19:37] [ServerMain/INFO]: Loaded 7 recipes
-[13:19:38] [Server thread/INFO]: Starting minecraft server version 1.19
-[13:19:38] [Server thread/INFO]: Loading properties
-[13:19:38] [Server thread/INFO]: Default game type: SURVIVAL
-[13:19:38] [Server thread/INFO]: Generating keypair
-[13:19:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:19:38] [Server thread/INFO]: Using default channel type
-[13:19:38] [Server thread/INFO]: This server is running CraftBukkit version 3540-Bukkit-0231a37 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
-[13:19:39] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
-[13:19:39] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[13:19:39] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3fa914d]
-[13:19:39] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
-[13:19:39] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
-[13:19:39] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:19:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:19:39] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:19:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[13:19:40] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:19:40] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[13:19:40] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[13:19:40] [Server thread/INFO]: [WorldEdit]   
-[13:19:40] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[13:19:40] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[13:19:40] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[13:19:40] [Server thread/INFO]: [WorldEdit]   
-[13:19:40] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[13:19:40] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[13:19:40] [Server thread/INFO]: [WorldEdit]   
-[13:19:40] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[13:19:40] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[13:19:40] [Server thread/INFO]: [WorldEdit]   
-[13:19:40] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[13:19:40] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:19:40] [Server thread/INFO]: Preparing level "world"
-[13:19:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:19:43] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:19:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:19:43] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:19:43] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:19:43] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[13:19:43] [Server thread/INFO]: Time elapsed: 2445 ms
-[13:19:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:19:45] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[13:19:45] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[13:19:45] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[13:19:45] [Worker-Main-19/INFO]: Preparing spawn area: 60%
-[13:19:45] [Server thread/INFO]: Time elapsed: 1636 ms
-[13:19:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:19:46] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[13:19:46] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[13:19:46] [Worker-Main-10/INFO]: Preparing spawn area: 31%
-[13:19:46] [Server thread/INFO]: Time elapsed: 1202 ms
-[13:19:46] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
-[13:19:46] [Server thread/INFO]: Woohoo! my plugin has started!!!
-[13:19:46] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
-[13:19:46] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
-[13:19:46] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
-[13:19:46] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[13:19:46] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[13:19:46] [Server thread/INFO]: No kits found to migrate.
-[13:19:47] [Server thread/INFO]: Loaded 38132 items from items.json.
-[13:19:47] [Server thread/INFO]: Using locale en_US
-[13:19:47] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[13:19:47] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:19:47] [Server thread/INFO]: Using superperms-based permissions.
-[13:19:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:19:47] [Server thread/INFO]: Done (6.563s)! For help, type "help"
-[13:19:47] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
-[13:19:48] [Craft Scheduler Thread - 1/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
-[13:19:48] [Craft Scheduler Thread - 1/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[13:20:06] [User Authenticator #1/INFO]: UUID of player Roh4n is 3ba96e46-029f-4414-b868-d08f9e025df9
-[13:20:06] [Server thread/INFO]: Roh4n joined the game
-[13:20:07] [Server thread/INFO]: Roh4n[/127.0.0.1:50661] logged in with entity id 263 at ([world]-8.652768539401823, 69.0, -195.7067735732553)
-[13:20:12] [Server thread/INFO]: Roh4n issued server command: /sendtitle
-[13:20:12] [Server thread/INFO]: 5...[m
-[13:20:13] [Server thread/INFO]: 4...[m
-[13:20:14] [Server thread/INFO]: 3...[m
-[13:20:15] [Server thread/INFO]: 2...[m
-[13:20:16] [Server thread/INFO]: 1...[m
-[13:20:17] [Server thread/INFO]: 0...[m
-[13:20:57] [Server thread/INFO]: Roh4n issued server command: /give @p enderpealr 64
-[13:20:59] [Server thread/INFO]: Roh4n issued server command: /give enderpearl 64
-[13:21:01] [Server thread/INFO]: Roh4n issued server command: /give enderpearl
-[13:21:05] [Server thread/INFO]: Roh4n issued server command: /give * enderpearl
-[13:21:20] [Server thread/INFO]: Roh4n issued server command: /sendtitle
-[13:21:20] [Server thread/INFO]: 5...[m
-[13:21:21] [Server thread/INFO]: Roh4n issued server command: /sendtitle
-[13:21:21] [Server thread/INFO]: 5...[m
-[13:21:21] [Server thread/INFO]: 4...[m
-[13:21:21] [Server thread/INFO]: Roh4n issued server command: /sendtitle
-[13:21:21] [Server thread/INFO]: 5...[m
-[13:21:22] [Server thread/INFO]: Roh4n issued server command: /sendtitle
-[13:21:22] [Server thread/INFO]: 5...[m
-[13:21:22] [Server thread/INFO]: 4...[m
-[13:21:22] [Server thread/INFO]: 3...[m
-[13:21:22] [Server thread/INFO]: Roh4n issued server command: /sendtitle
-[13:21:22] [Server thread/INFO]: 5...[m
-[13:21:22] [Server thread/INFO]: Roh4n issued server command: /sendtitle
-[13:21:22] [Server thread/INFO]: 5...[m
-[13:21:22] [Server thread/INFO]: 4...[m
-[13:21:23] [Server thread/INFO]: 4...[m
-[13:21:23] [Server thread/INFO]: 3...[m
-[13:21:23] [Server thread/INFO]: 2...[m
-[13:21:23] [Server thread/INFO]: 4...[m
-[13:21:23] [Server thread/INFO]: 4...[m
-[13:21:23] [Server thread/INFO]: 3...[m
-[13:21:24] [Server thread/INFO]: 3...[m
-[13:21:24] [Server thread/INFO]: 2...[m
-[13:21:24] [Server thread/INFO]: 1...[m
-[13:21:24] [Server thread/INFO]: 3...[m
-[13:21:24] [Server thread/INFO]: 3...[m
-[13:21:24] [Server thread/INFO]: 2...[m
-[13:21:25] [Server thread/INFO]: 2...[m
-[13:21:25] [Server thread/INFO]: 1...[m
-[13:21:25] [Server thread/INFO]: 0...[m
-[13:21:25] [Server thread/INFO]: 2...[m
-[13:21:25] [Server thread/INFO]: 2...[m
-[13:21:25] [Server thread/INFO]: 1...[m
-[13:21:26] [Server thread/INFO]: 1...[m
-[13:21:26] [Server thread/INFO]: 0...[m
-[13:21:26] [Server thread/INFO]: 1...[m
-[13:21:26] [Server thread/INFO]: 1...[m
-[13:21:26] [Server thread/INFO]: 0...[m
-[13:21:27] [Server thread/INFO]: 0...[m
-[13:21:27] [Server thread/INFO]: 0...[m
-[13:21:27] [Server thread/INFO]: 0...[m
-[13:22:01] [Server thread/INFO]: Roh4n issued server command: /gmc
-[13:26:01] [User Authenticator #2/INFO]: UUID of player LukeDavidson is 176ef09a-c485-445b-afb7-7092d4de8b5f
-[13:26:01] [Server thread/INFO]: LukeDavidson joined the game
-[13:26:01] [Server thread/INFO]: LukeDavidson[/73.166.218.199:63946] logged in with entity id 1073 at ([world]-568.9676593869883, 106.92677603224091, -548.4724761827174)
-[13:26:25] [Server thread/INFO]: LukeDavidson issued server command: /sendtitle
-[13:26:25] [Server thread/INFO]: 5...[m
-[13:26:26] [Server thread/INFO]: 4...[m
-[13:26:27] [Server thread/INFO]: 3...[m
-[13:26:28] [Server thread/INFO]: 2...[m
-[13:26:29] [Server thread/INFO]: 1...[m
-[13:26:30] [Server thread/INFO]: 0...[m
-[13:26:46] [Server thread/INFO]: Roh4n issued server command: /rl
-[13:26:46] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[13:26:46] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[13:26:46] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
-[13:26:46] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[13:26:46] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
-[13:26:46] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:26:46] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[13:26:46] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
-[13:26:46] [Server thread/INFO]: Loaded 7 recipes
-[13:26:47] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
-[13:26:47] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[13:26:47] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1d00ca89]
-[13:26:47] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
-[13:26:47] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
-[13:26:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:26:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:26:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:26:47] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[13:26:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[13:26:48] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:26:48] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[13:26:48] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[13:26:48] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:26:48] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
-[13:26:48] [Server thread/INFO]: Woohoo! my plugin has started!!!
-[13:26:48] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
-[13:26:48] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
-[13:26:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
-[13:26:48] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[13:26:48] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[13:26:48] [Server thread/INFO]: No kits found to migrate.
-[13:26:48] [Server thread/INFO]: Loaded 38132 items from items.json.
-[13:26:48] [Server thread/INFO]: Using locale en_US
-[13:26:48] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[13:26:48] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:26:48] [Server thread/INFO]: Using superperms-based permissions.
-[13:26:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:26:48] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
-[13:26:48] [Craft Scheduler Thread - 4/INFO]: §6Fetching version information...
-[13:26:48] [Craft Scheduler Thread - 4/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
-[13:26:48] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[13:26:49] [Server thread/INFO]: Roh4n issued server command: /sendtitle
-[13:26:52] [Server thread/INFO]: LukeDavidson issued server command: /sendtitle
-[13:27:00] [Server thread/INFO]: LukeDavidson lost connection: Disconnected
-[13:27:00] [Server thread/INFO]: LukeDavidson left the game
-[13:42:34] [Server thread/INFO]: Roh4n issued server command: /rl
-[13:42:34] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[13:42:34] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[13:42:34] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
-[13:42:34] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[13:42:34] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
-[13:42:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:42:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[13:42:34] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
-[13:42:34] [Server thread/INFO]: Loaded 7 recipes
-[13:42:34] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
-[13:42:34] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[13:42:34] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5aad3dce]
-[13:42:34] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
-[13:42:34] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
-[13:42:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:42:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:42:34] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:42:34] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[13:42:34] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[13:42:35] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:42:35] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[13:42:35] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[13:42:35] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:42:35] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
-[13:42:35] [Server thread/INFO]: Woohoo! my plugin has started!!!
-[13:42:35] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
-[13:42:35] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
-[13:42:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
-[13:42:35] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[13:42:35] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[13:42:35] [Server thread/INFO]: No kits found to migrate.
-[13:42:35] [Server thread/INFO]: Loaded 38132 items from items.json.
-[13:42:35] [Server thread/INFO]: Using locale en_US
-[13:42:35] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[13:42:35] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:42:35] [Server thread/INFO]: Using superperms-based permissions.
-[13:42:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:42:35] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
-[13:42:35] [Craft Scheduler Thread - 7/INFO]: §6Fetching version information...
-[13:42:35] [Craft Scheduler Thread - 7/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
-[13:42:35] [Craft Scheduler Thread - 7/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[13:42:39] [Server thread/INFO]: Roh4n issued server command: /sendtitle
-[13:44:50] [Server thread/INFO]: Roh4n issued server command: /togglegame
-[13:44:56] [Server thread/INFO]: Roh4n issued server command: /togglegame
-[13:44:56] [Server thread/WARN]: Roh4n moved too quickly! 20.042028826472375,-42.755156419177425,-61.954977954048104
-[13:45:05] [Server thread/INFO]: Roh4n issued server command: /togglegame
-[13:47:36] [Server thread/INFO]: Roh4n issued server command: /rl
-[13:47:36] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[13:47:36] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[13:47:36] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
-[13:47:36] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[13:47:36] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
-[13:47:36] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:47:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[13:47:36] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
-[13:47:36] [Server thread/INFO]: Loaded 7 recipes
-[13:47:36] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
-[13:47:36] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[13:47:36] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@78b8079]
-[13:47:36] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
-[13:47:36] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
-[13:47:36] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:47:36] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:47:36] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:47:36] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[13:47:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[13:47:37] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:47:37] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[13:47:37] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[13:47:37] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:47:37] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
-[13:47:37] [Server thread/INFO]: Woohoo! my plugin has started!!!
-[13:47:37] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
-[13:47:37] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
-[13:47:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
-[13:47:37] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[13:47:37] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[13:47:37] [Server thread/INFO]: No kits found to migrate.
-[13:47:37] [Server thread/INFO]: Loaded 38132 items from items.json.
-[13:47:37] [Server thread/INFO]: Using locale en_US
-[13:47:37] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[13:47:37] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:47:37] [Server thread/INFO]: Using superperms-based permissions.
-[13:47:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:47:37] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
-[13:47:37] [Craft Scheduler Thread - 10/INFO]: §6Fetching version information...
-[13:47:37] [Server thread/WARN]: Roh4n moved too quickly! 9.963032334388608,0.0,-1.741040964392397
-[13:47:37] [Craft Scheduler Thread - 10/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
-[13:47:37] [Craft Scheduler Thread - 10/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[13:48:50] [Server thread/INFO]: Roh4n issued server command: /reload
-[13:48:50] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[13:48:50] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[13:48:50] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
-[13:48:50] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[13:48:50] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
-[13:48:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:48:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[13:48:50] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
-[13:48:50] [Server thread/INFO]: Loaded 7 recipes
-[13:48:50] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
-[13:48:50] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[13:48:50] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@63fadb60]
-[13:48:50] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
-[13:48:50] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
-[13:48:50] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:48:50] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:48:50] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:48:50] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[13:48:50] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[13:48:51] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:48:51] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[13:48:51] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[13:48:51] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:48:51] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
-[13:48:51] [Server thread/INFO]: Woohoo! my plugin has started!!!
-[13:48:51] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
-[13:48:51] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
-[13:48:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
-[13:48:51] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[13:48:51] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[13:48:51] [Server thread/INFO]: No kits found to migrate.
-[13:48:51] [Server thread/INFO]: Loaded 38132 items from items.json.
-[13:48:51] [Server thread/INFO]: Using locale en_US
-[13:48:51] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[13:48:51] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:48:51] [Server thread/INFO]: Using superperms-based permissions.
-[13:48:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:48:51] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
-[13:48:51] [Craft Scheduler Thread - 13/INFO]: §6Fetching version information...
-[13:48:51] [Craft Scheduler Thread - 13/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
-[13:48:51] [Craft Scheduler Thread - 13/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[13:49:01] [Server thread/INFO]: Roh4n issued server command: /togglem
-[13:49:03] [Server thread/INFO]: Roh4n issued server command: /tog
-[13:49:07] [Server thread/INFO]: Roh4n issued server command: /togglegame
-[13:49:20] [Server thread/INFO]: Roh4n issued server command: /toggleeditwand
-[13:49:22] [Server thread/INFO]: Roh4n issued server command: /togglegame
-[13:49:22] [Server thread/INFO]: Cooldowns stopping![m
-[13:49:30] [Server thread/INFO]: Roh4n issued server command: /tool none
-[13:49:31] [Server thread/INFO]: Roh4n issued server command: //wand
-[13:57:37] [Server thread/INFO]: Roh4n issued server command: /l
-[13:57:43] [Server thread/INFO]: Roh4n issued server command: /reload
-[13:57:43] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[13:57:43] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[13:57:43] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
-[13:57:43] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[13:57:43] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
-[13:57:43] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:57:43] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[13:57:43] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
-[13:57:43] [Server thread/INFO]: Loaded 7 recipes
-[13:57:43] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
-[13:57:43] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[13:57:43] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3b6400c1]
-[13:57:43] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
-[13:57:43] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
-[13:57:43] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:57:43] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:57:43] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:57:43] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[13:57:43] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[13:57:44] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:57:44] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[13:57:44] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[13:57:44] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:57:44] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
-[13:57:44] [Server thread/INFO]: Woohoo! my plugin has started!!!
-[13:57:44] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
-[13:57:44] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
-[13:57:44] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
-[13:57:44] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[13:57:44] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[13:57:44] [Server thread/INFO]: No kits found to migrate.
-[13:57:44] [Server thread/INFO]: Loaded 38132 items from items.json.
-[13:57:44] [Server thread/INFO]: Using locale en_US
-[13:57:44] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[13:57:44] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:57:44] [Server thread/INFO]: Using superperms-based permissions.
-[13:57:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:57:44] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
-[13:57:44] [Craft Scheduler Thread - 16/INFO]: §6Fetching version information...
-[13:57:44] [Craft Scheduler Thread - 16/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
-[13:57:44] [Craft Scheduler Thread - 16/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[13:58:47] [Server thread/INFO]: Roh4n issued server command: /reload
-[13:58:47] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[13:58:47] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[13:58:47] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
-[13:58:47] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[13:58:47] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
-[13:58:47] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:58:47] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[13:58:47] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
-[13:58:47] [Server thread/INFO]: Loaded 7 recipes
-[13:58:47] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
-[13:58:47] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[13:58:48] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@219e6134]
-[13:58:48] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
-[13:58:48] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
-[13:58:48] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[13:58:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:58:48] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:58:48] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[13:58:48] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[13:58:48] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:58:48] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[13:58:48] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[13:58:48] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:58:48] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
-[13:58:48] [Server thread/INFO]: Woohoo! my plugin has started!!!
-[13:58:48] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
-[13:58:48] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
-[13:58:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
-[13:58:48] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[13:58:48] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[13:58:48] [Server thread/INFO]: No kits found to migrate.
-[13:58:48] [Server thread/INFO]: Loaded 38132 items from items.json.
-[13:58:48] [Server thread/INFO]: Using locale en_US
-[13:58:48] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[13:58:48] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:58:48] [Server thread/INFO]: Using superperms-based permissions.
-[13:58:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:58:48] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
-[13:58:48] [Craft Scheduler Thread - 19/INFO]: §6Fetching version information...
-[13:58:48] [Craft Scheduler Thread - 19/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
-[13:58:48] [Craft Scheduler Thread - 19/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[13:59:04] [Server thread/INFO]: Roh4n issued server command: /togglegame
-[14:00:47] [Server thread/INFO]: Roh4n issued server command: /reload
-[14:00:47] [Server thread/INFO]: Roh4n: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[14:00:47] [Server thread/INFO]: Roh4n: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[14:00:47] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
-[14:00:47] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[14:00:47] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
-[14:00:47] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
-[14:00:47] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[14:00:47] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
-[14:00:47] [Server thread/INFO]: Loaded 7 recipes
-[14:00:47] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
-[14:00:47] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[14:00:47] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7b6c31e6]
-[14:00:47] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
-[14:00:47] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
-[14:00:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[14:00:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[14:00:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[14:00:47] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[14:00:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[14:00:48] [Server thread/INFO]: [WorldEdit] ====================================================
-[14:00:48] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[14:00:48] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[14:00:48] [Server thread/INFO]: [WorldEdit] ====================================================
-[14:00:48] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
-[14:00:48] [Server thread/INFO]: Woohoo! my plugin has started!!!
-[14:00:48] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
-[14:00:48] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
-[14:00:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
-[14:00:48] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[14:00:48] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[14:00:48] [Server thread/INFO]: No kits found to migrate.
-[14:00:48] [Server thread/INFO]: Loaded 38132 items from items.json.
-[14:00:48] [Server thread/INFO]: Using locale en_US
-[14:00:48] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[14:00:48] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[14:00:48] [Server thread/INFO]: Using superperms-based permissions.
-[14:00:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:00:48] [Server thread/INFO]: Roh4n: [0;32;1mReload complete.[m
-[14:00:48] [Craft Scheduler Thread - 22/INFO]: §6Fetching version information...
-[14:00:48] [Craft Scheduler Thread - 22/WARN]: §4You're §c3 §4EssentialsX dev build(s) out of date!
-[14:00:48] [Craft Scheduler Thread - 22/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[14:00:51] [Server thread/INFO]: Roh4n issued server command: /togglegame
-[14:02:00] [Server thread/INFO]: Roh4n issued server command: /togglegame
-[14:02:00] [Server thread/INFO]: Cooldowns stopping![m
-[14:02:00] [Server thread/WARN]: Roh4n moved too quickly! 51.518083728707694,14.996998385298966,2.611411778022358
-[14:03:00] [Server thread/INFO]: Roh4n issued server command: /togglegame
-[14:03:03] [Server thread/INFO]: Roh4n issued server command: /togglegame
-[14:03:03] [Server thread/INFO]: Cooldowns stopping![m
-[14:03:13] [Server thread/INFO]: Roh4n issued server command: /togglegame
-[14:03:18] [Server thread/INFO]: Roh4n issued server command: /togglegame
-[14:03:18] [Server thread/INFO]: Cooldowns stopping![m
-[14:04:14] [Server thread/INFO]: Stopping the server
-[14:04:14] [Server thread/INFO]: Stopping server
-[14:04:14] [Server thread/INFO]: Disabling Essentials v2.19.5-dev+23-6816eb4
-[14:04:14] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
-[14:04:14] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
-[14:04:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[14:04:14] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
-[14:04:14] [Server thread/INFO]: Saving players
-[14:04:14] [Server thread/INFO]: Roh4n lost connection: Server closed
-[14:04:14] [Server thread/INFO]: Roh4n left the game.
-[14:04:14] [Server thread/INFO]: Saving worlds
-[14:04:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:04:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:04:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:04:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:04:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:04:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:04:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:53:17] [ServerMain/INFO]: Building unoptimized datafixer
+[21:53:17] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:53:19] [ServerMain/INFO]: Loaded 7 recipes
+[21:53:20] [Server thread/INFO]: Starting minecraft server version 1.19
+[21:53:20] [Server thread/INFO]: Loading properties
+[21:53:20] [Server thread/INFO]: This server is running Paper version git-Paper-58 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: e294802)
+[21:53:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:53:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:53:20] [Server thread/INFO]: Default game type: SURVIVAL
+[21:53:20] [Server thread/INFO]: Generating keypair
+[21:53:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:53:20] [Server thread/INFO]: Using default channel type
+[21:53:20] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[21:53:20] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:53:20] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[21:53:20] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[21:53:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@147bdc22]
+[21:53:21] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[21:53:21] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[21:53:21] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[21:53:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:53:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[21:53:21] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:53:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:53:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[21:53:22] [Server thread/INFO]: Preparing level "world"
+[21:53:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:53:23] [Server thread/INFO]: Time elapsed: 211 ms
+[21:53:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:53:23] [Server thread/INFO]: Time elapsed: 48 ms
+[21:53:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:53:23] [Server thread/INFO]: Time elapsed: 40 ms
+[21:53:23] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[21:53:23] [Server thread/INFO]: [Game] [STDOUT] Woohoo! my plugin has started!!!
+[21:53:23] [Server thread/WARN]: Nag author(s): '[Rohan, Luke]' of 'Game' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[21:53:23] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[21:53:23] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[21:53:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[21:53:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:53:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:53:24] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[21:53:24] [Server thread/INFO]: [Essentials] Using locale en_US
+[21:53:24] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:53:24] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:53:24] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:53:24] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[21:53:24] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[21:53:24] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[21:53:24] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[21:53:24] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[21:53:24] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[21:53:24] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[21:53:24] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[21:53:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[21:53:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[21:53:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[21:53:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[21:53:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[21:53:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:633)
+[21:53:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:419)
+[21:53:24] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:306)
+[21:53:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1121)
+[21:53:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[21:53:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[21:53:24] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[21:53:24] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[21:53:24] [Server thread/INFO]: --------------------
+[21:53:24] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[21:53:24] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[21:53:24] [Server thread/INFO]: --------------------
+[21:53:24] [Server thread/INFO]: Running delayed init tasks
+[21:53:24] [Server thread/INFO]: Done (4.787s)! For help, type "help"
+[21:53:24] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:53:24] [Server thread/INFO]: Timings Reset
+[21:53:25] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[21:53:25] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[21:54:10] [User Authenticator #1/INFO]: UUID of player Roh4n is 3ba96e46-029f-4414-b868-d08f9e025df9
+[21:54:10] [Server thread/INFO]: Roh4n joined the game
+[21:54:10] [Server thread/INFO]: Roh4n[/127.0.0.1:60565] logged in with entity id 271 at ([world]2.0183595029550796, 146.49390748022952, -170.94825283056136)
+[21:54:14] [Server thread/INFO]: Roh4n issued server command: /startgame
+[21:54:14] [Server thread/INFO]: 
+
+Game starting in 10 seconds!
+[21:54:15] [Server thread/INFO]: 
+
+Game starting in 9 seconds!
+[21:54:16] [Server thread/INFO]: Roh4n issued server command: /join
+[21:54:16] [Server thread/INFO]: 
+
+Game starting in 8 seconds!
+[21:54:17] [Server thread/INFO]: 
+
+Game starting in 7 seconds!
+[21:54:18] [Server thread/INFO]: 
+
+Game starting in 6 seconds!
+[21:54:19] [Server thread/INFO]: 
+
+Game starting in 5 seconds!
+[21:54:20] [Server thread/INFO]: 
+
+Game starting in 4 seconds!
+[21:54:21] [Server thread/INFO]: 
+
+Game starting in 3 seconds!
+[21:54:22] [Server thread/INFO]: 
+
+Game starting in 2 seconds!
+[21:54:23] [Server thread/INFO]: 
+
+Game starting in 1 seconds!
+[21:54:25] [Server thread/WARN]: players changed!
+[21:54:40] [Server thread/INFO]: Roh4n issued server command: /tp ~ ~-30 ~
+[21:54:43] [Server thread/INFO]: Roh4n issued server command: /tp ~ ~-30 ~
+[21:54:46] [Server thread/INFO]: Roh4n issued server command: /tp ~ ~-30 ~
+[21:54:46] [Server thread/INFO]: Roh4n issued server command: /tp ~ ~-30 ~
+[21:55:07] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[21:55:09] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[21:55:09] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[21:55:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:55:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:55:09] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[21:55:09] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[21:55:10] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[21:55:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[21:55:10] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[21:55:10] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[21:55:10] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[21:55:10] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:55:10] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[21:55:10] [Server thread/INFO]: Loaded 7 recipes
+[21:55:11] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[21:55:11] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[21:55:11] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6503594b]
+[21:55:11] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[21:55:11] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[21:55:11] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[21:55:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:55:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[21:55:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:55:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:55:11] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[21:55:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[21:55:11] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[21:55:11] [Server thread/INFO]: [Game] [STDOUT] Woohoo! my plugin has started!!!
+[21:55:11] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[21:55:11] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[21:55:11] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[21:55:12] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:55:12] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:55:12] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[21:55:12] [Server thread/INFO]: [Essentials] Using locale en_US
+[21:55:12] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:55:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:55:12] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:55:12] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[21:55:12] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[21:55:12] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[21:55:12] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[21:55:12] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[21:55:12] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[21:55:12] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[21:55:12] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[21:55:12] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[21:55:12] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[21:55:12] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[21:55:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[21:55:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[21:55:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1018)
+[21:55:12] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:909)
+[21:55:12] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[21:55:12] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[21:55:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[21:55:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872)
+[21:55:12] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bg(DedicatedServer.java:473)
+[21:55:12] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:447)
+[21:55:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1414)
+[21:55:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1187)
+[21:55:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[21:55:12] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[21:55:12] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[21:55:12] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[21:55:12] [Server thread/INFO]: --------------------
+[21:55:12] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[21:55:12] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[21:55:12] [Server thread/INFO]: --------------------
+[21:55:12] [Server thread/INFO]: CONSOLE: Reload complete.
+[21:55:12] [Server thread/INFO]: Timings Reset
+[21:55:12] [Craft Scheduler Thread - 9 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:55:12] [Craft Scheduler Thread - 9 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[21:55:12] [Craft Scheduler Thread - 9 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[21:55:16] [Server thread/INFO]: Roh4n issued server command: /clear
+[21:55:18] [Server thread/INFO]: Roh4n issued server command: /gmc
+[21:55:20] [Server thread/INFO]: Roh4n issued server command: /give *s tone
+[21:55:21] [Server thread/INFO]: Roh4n issued server command: /give * stone
+[21:55:24] [Server thread/INFO]: Roh4n issued server command: /startgame
+[21:55:24] [Server thread/INFO]: 
+
+Game starting in 10 seconds!
+[21:55:25] [Server thread/INFO]: 
+
+Game starting in 9 seconds!
+[21:55:26] [Server thread/INFO]: 
+
+Game starting in 8 seconds!
+[21:55:26] [Server thread/INFO]: Roh4n issued server command: /join
+[21:55:27] [Server thread/INFO]: 
+
+Game starting in 7 seconds!
+[21:55:28] [Server thread/INFO]: 
+
+Game starting in 6 seconds!
+[21:55:29] [Server thread/INFO]: 
+
+Game starting in 5 seconds!
+[21:55:30] [Server thread/INFO]: 
+
+Game starting in 4 seconds!
+[21:55:31] [Server thread/INFO]: 
+
+Game starting in 3 seconds!
+[21:55:32] [Server thread/INFO]: 
+
+Game starting in 2 seconds!
+[21:55:33] [Server thread/INFO]: 
+
+Game starting in 1 seconds!
+[21:55:35] [Server thread/WARN]: players changed!
+[21:55:38] [Server thread/INFO]: Roh4n won the round!
+[21:55:38] [Server thread/WARN]: Roh4n moved too quickly! -6.894824218544237,61.25635638131638,-43.040919491512796
+[21:56:20] [Server thread/INFO]: Roh4n issued server command: /stopgame
+[21:56:20] [Server thread/WARN]: Roh4n moved too quickly! -30.86002929531641,1.0,-24.641942897779344
+[21:56:28] [Server thread/INFO]: Roh4n issued server command: /rl
+[21:56:28] [Server thread/INFO]: Roh4n: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[21:56:30] [Server thread/INFO]: Roh4n issued server command: /rl confirm
+[21:56:30] [Server thread/INFO]: Roh4n: Please note that this command is not supported and may cause issues when using some plugins.
+[21:56:30] [Server thread/INFO]: Roh4n: If you encounter any issues please use the /stop command to restart your server.
+[21:56:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:56:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:56:30] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[21:56:30] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[21:56:31] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[21:56:31] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[21:56:31] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[21:56:31] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[21:56:31] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[21:56:31] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:56:31] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[21:56:31] [Server thread/INFO]: Loaded 7 recipes
+[21:56:32] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[21:56:32] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[21:56:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@48d0aac]
+[21:56:32] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[21:56:32] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[21:56:32] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[21:56:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:56:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[21:56:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:56:32] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:56:32] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[21:56:32] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[21:56:32] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[21:56:32] [Server thread/INFO]: [Game] [STDOUT] Woohoo! my plugin has started!!!
+[21:56:32] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[21:56:32] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[21:56:32] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[21:56:32] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:56:32] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:56:32] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[21:56:32] [Server thread/INFO]: [Essentials] Using locale en_US
+[21:56:32] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:56:32] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:56:32] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:56:32] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[21:56:32] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[21:56:32] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[21:56:32] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[21:56:32] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[21:56:32] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[21:56:32] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[21:56:32] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[21:56:32] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[21:56:32] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[21:56:32] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[21:56:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[21:56:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[21:56:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1018)
+[21:56:32] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:909)
+[21:56:32] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[21:56:32] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[21:56:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:2376)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleChatCommand$18(PlayerConnection.java:2147)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1358)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bh(MinecraftServer.java:1335)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1328)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:136)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1306)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1191)
+[21:56:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[21:56:32] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[21:56:32] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[21:56:32] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[21:56:32] [Server thread/INFO]: --------------------
+[21:56:32] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[21:56:32] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[21:56:32] [Server thread/INFO]: --------------------
+[21:56:32] [Server thread/INFO]: Roh4n: Reload complete.
+[21:56:32] [Server thread/INFO]: Timings Reset
+[21:56:32] [Craft Scheduler Thread - 13 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:56:33] [Craft Scheduler Thread - 13 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[21:56:33] [Craft Scheduler Thread - 13 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[21:56:34] [Server thread/INFO]: Roh4n issued server command: /startgame
+[21:56:34] [Server thread/INFO]: 
+
+Game starting in 10 seconds!
+[21:56:35] [Server thread/INFO]: 
+
+Game starting in 9 seconds!
+[21:56:36] [Server thread/INFO]: Roh4n issued server command: /join
+[21:56:36] [Server thread/INFO]: 
+
+Game starting in 8 seconds!
+[21:56:37] [Server thread/INFO]: 
+
+Game starting in 7 seconds!
+[21:56:38] [Server thread/INFO]: 
+
+Game starting in 6 seconds!
+[21:56:39] [Server thread/INFO]: 
+
+Game starting in 5 seconds!
+[21:56:40] [Server thread/INFO]: 
+
+Game starting in 4 seconds!
+[21:56:41] [Server thread/INFO]: 
+
+Game starting in 3 seconds!
+[21:56:42] [Server thread/INFO]: 
+
+Game starting in 2 seconds!
+[21:56:43] [Server thread/INFO]: 
+
+Game starting in 1 seconds!
+[21:56:45] [Server thread/WARN]: players changed!
+[21:56:50] [Server thread/INFO]: Roh4n won the round!
+[21:56:50] [Server thread/WARN]: Roh4n moved too quickly! -10.721979788646905,62.01335884456418,-44.833524523096
+[21:58:21] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[21:58:23] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[21:58:23] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[21:58:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:58:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:58:23] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[21:58:23] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[21:58:24] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[21:58:24] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[21:58:24] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[21:58:24] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[21:58:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[21:58:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:58:24] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[21:58:24] [Server thread/INFO]: Loaded 7 recipes
+[21:58:24] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[21:58:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[21:58:24] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2d5330da]
+[21:58:24] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[21:58:24] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[21:58:24] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[21:58:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:58:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[21:58:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:58:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:58:24] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[21:58:24] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[21:58:25] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[21:58:25] [Server thread/INFO]: [Game] [STDOUT] Woohoo! my plugin has started!!!
+[21:58:25] [Server thread/WARN]: Nag author(s): '[Rohan, Luke]' of 'Game' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[21:58:25] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[21:58:25] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[21:58:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[21:58:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:58:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:58:25] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[21:58:25] [Server thread/INFO]: [Essentials] Using locale en_US
+[21:58:25] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:58:25] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:58:25] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:58:25] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[21:58:25] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[21:58:25] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[21:58:25] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[21:58:25] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[21:58:25] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[21:58:25] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[21:58:25] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[21:58:25] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[21:58:25] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[21:58:25] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[21:58:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[21:58:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[21:58:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1018)
+[21:58:25] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:909)
+[21:58:25] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[21:58:25] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[21:58:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[21:58:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872)
+[21:58:25] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bg(DedicatedServer.java:473)
+[21:58:25] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:447)
+[21:58:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1414)
+[21:58:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1187)
+[21:58:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[21:58:25] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[21:58:25] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[21:58:25] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[21:58:25] [Server thread/INFO]: --------------------
+[21:58:25] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[21:58:25] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[21:58:25] [Server thread/INFO]: --------------------
+[21:58:25] [Server thread/INFO]: CONSOLE: Reload complete.
+[21:58:25] [Server thread/INFO]: Timings Reset
+[21:58:25] [Craft Scheduler Thread - 17 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:58:25] [Craft Scheduler Thread - 17 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[21:58:25] [Craft Scheduler Thread - 17 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[21:58:31] [Server thread/INFO]: Roh4n issued server command: /clear
+[21:58:32] [Server thread/INFO]: Roh4n issued server command: /gmc
+[21:58:33] [Server thread/INFO]: Roh4n issued server command: /give * s tone
+[21:58:34] [Server thread/INFO]: Roh4n issued server command: /give * stone
+[21:58:37] [Server thread/INFO]: Roh4n issued server command: /startgame
+[21:58:37] [Server thread/INFO]: 
+
+Game starting in 10 seconds!
+[21:58:38] [Server thread/INFO]: 
+
+Game starting in 9 seconds!
+[21:58:38] [Server thread/INFO]: Roh4n issued server command: /join
+[21:58:39] [Server thread/INFO]: 
+
+Game starting in 8 seconds!
+[21:58:40] [Server thread/INFO]: 
+
+Game starting in 7 seconds!
+[21:58:41] [Server thread/INFO]: 
+
+Game starting in 6 seconds!
+[21:58:42] [Server thread/INFO]: 
+
+Game starting in 5 seconds!
+[21:58:43] [Server thread/INFO]: 
+
+Game starting in 4 seconds!
+[21:58:44] [Server thread/INFO]: 
+
+Game starting in 3 seconds!
+[21:58:45] [Server thread/INFO]: 
+
+Game starting in 2 seconds!
+[21:58:46] [Server thread/INFO]: 
+
+Game starting in 1 seconds!
+[21:58:51] [Server thread/INFO]: Roh4n won the round!
+[21:58:51] [Server thread/WARN]: Roh4n moved too quickly! -8.438503350307144,61.25635638131638,-43.040919491512796
+[22:01:08] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[22:01:09] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[22:01:09] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[22:01:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:01:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:01:09] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[22:01:09] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[22:01:10] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[22:01:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[22:01:10] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[22:01:10] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[22:01:10] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:01:10] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:01:10] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[22:01:10] [Server thread/INFO]: Loaded 7 recipes
+[22:01:10] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[22:01:10] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[22:01:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1f6656d8]
+[22:01:10] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[22:01:10] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[22:01:10] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[22:01:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:01:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:01:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:01:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:01:11] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[22:01:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[22:01:11] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[22:01:11] [Server thread/INFO]: [Game] [STDOUT] Woohoo! my plugin has started!!!
+[22:01:11] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[22:01:11] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[22:01:11] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[22:01:11] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:01:11] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:01:11] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:01:11] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:01:11] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:01:11] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:01:11] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:01:11] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[22:01:11] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[22:01:11] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[22:01:11] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[22:01:11] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[22:01:11] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[22:01:11] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[22:01:11] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[22:01:11] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:01:11] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:01:11] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[22:01:11] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[22:01:11] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[22:01:11] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1018)
+[22:01:11] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:909)
+[22:01:11] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[22:01:11] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[22:01:11] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[22:01:11] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872)
+[22:01:11] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bg(DedicatedServer.java:473)
+[22:01:11] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:447)
+[22:01:11] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1414)
+[22:01:11] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1187)
+[22:01:11] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[22:01:11] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:01:11] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[22:01:11] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[22:01:11] [Server thread/INFO]: --------------------
+[22:01:11] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[22:01:11] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[22:01:11] [Server thread/INFO]: --------------------
+[22:01:11] [Server thread/INFO]: CONSOLE: Reload complete.
+[22:01:11] [Server thread/INFO]: Timings Reset
+[22:01:11] [Craft Scheduler Thread - 21 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:01:11] [Craft Scheduler Thread - 21 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[22:01:11] [Craft Scheduler Thread - 21 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[22:01:27] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[22:01:27] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[22:01:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:01:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:01:27] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[22:01:27] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[22:01:28] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[22:01:28] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[22:01:28] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[22:01:28] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[22:01:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:01:28] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:01:28] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[22:01:28] [Server thread/INFO]: Loaded 7 recipes
+[22:01:29] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[22:01:29] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[22:01:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@69871830]
+[22:01:29] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[22:01:29] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[22:01:29] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[22:01:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:01:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:01:29] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:01:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:01:29] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[22:01:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[22:01:29] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[22:01:29] [Server thread/INFO]: [Game] [STDOUT] Woohoo! my plugin has started!!!
+[22:01:29] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[22:01:29] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[22:01:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[22:01:29] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:01:29] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:01:29] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:01:29] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:01:29] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:01:29] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:01:29] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:01:29] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[22:01:29] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[22:01:29] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[22:01:29] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[22:01:29] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[22:01:29] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[22:01:29] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[22:01:29] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[22:01:29] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:01:29] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:01:29] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[22:01:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[22:01:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[22:01:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1018)
+[22:01:29] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:909)
+[22:01:29] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[22:01:29] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[22:01:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[22:01:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872)
+[22:01:29] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bg(DedicatedServer.java:473)
+[22:01:29] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:447)
+[22:01:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1414)
+[22:01:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1187)
+[22:01:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[22:01:29] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:01:29] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[22:01:29] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[22:01:29] [Server thread/INFO]: --------------------
+[22:01:29] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[22:01:29] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[22:01:29] [Server thread/INFO]: --------------------
+[22:01:29] [Server thread/INFO]: CONSOLE: Reload complete.
+[22:01:29] [Server thread/INFO]: Timings Reset
+[22:01:29] [Craft Scheduler Thread - 19 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:01:30] [Craft Scheduler Thread - 19 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[22:01:30] [Craft Scheduler Thread - 19 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[22:01:33] [Server thread/INFO]: Roh4n issued server command: /clear
+[22:01:34] [Server thread/INFO]: Roh4n issued server command: /time set day
+[22:01:43] [Server thread/INFO]: Roh4n issued server command: /startgame
+[22:01:43] [Server thread/INFO]: 
+
+Game starting in 10 seconds!
+[22:01:44] [Server thread/INFO]: 
+
+Game starting in 9 seconds!
+[22:01:45] [Server thread/INFO]: Roh4n issued server command: /join
+[22:01:45] [Server thread/INFO]: 
+
+Game starting in 8 seconds!
+[22:01:46] [Server thread/INFO]: 
+
+Game starting in 7 seconds!
+[22:01:47] [Server thread/INFO]: 
+
+Game starting in 6 seconds!
+[22:01:48] [Server thread/INFO]: 
+
+Game starting in 5 seconds!
+[22:01:49] [Server thread/INFO]: 
+
+Game starting in 4 seconds!
+[22:01:50] [Server thread/INFO]: 
+
+Game starting in 3 seconds!
+[22:01:51] [Server thread/INFO]: 
+
+Game starting in 2 seconds!
+[22:01:52] [Server thread/INFO]: 
+
+Game starting in 1 seconds!
+[22:02:01] [Server thread/INFO]: Roh4n won the round!
+[22:02:02] [Server thread/WARN]: Roh4n moved too quickly! -42.08161733655383,61.3640767113625,34.65392715316301
+[22:04:12] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[22:04:12] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[22:04:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:04:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:04:13] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[22:04:13] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[22:04:13] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[22:04:13] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[22:04:13] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[22:04:13] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[22:04:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:04:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:04:13] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[22:04:13] [Server thread/INFO]: Loaded 7 recipes
+[22:04:14] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[22:04:14] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[22:04:14] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@19b092cc]
+[22:04:14] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[22:04:14] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[22:04:14] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[22:04:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:04:14] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:04:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:04:14] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:04:14] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[22:04:14] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[22:04:14] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[22:04:14] [Server thread/INFO]: [Game] [STDOUT] Woohoo! my plugin has started!!!
+[22:04:14] [Server thread/WARN]: Nag author(s): '[Rohan, Luke]' of 'Game' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[22:04:14] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[22:04:14] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[22:04:14] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[22:04:14] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:04:14] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:04:14] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:04:14] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:04:14] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:04:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:04:14] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:04:14] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[22:04:14] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[22:04:14] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[22:04:14] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[22:04:14] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[22:04:14] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[22:04:14] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[22:04:14] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[22:04:14] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:04:14] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:04:14] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[22:04:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[22:04:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[22:04:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1018)
+[22:04:14] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:909)
+[22:04:14] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[22:04:14] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[22:04:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[22:04:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872)
+[22:04:14] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bg(DedicatedServer.java:473)
+[22:04:14] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:447)
+[22:04:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1414)
+[22:04:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1187)
+[22:04:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[22:04:14] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:04:14] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[22:04:14] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[22:04:14] [Server thread/INFO]: --------------------
+[22:04:14] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[22:04:14] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[22:04:14] [Server thread/INFO]: --------------------
+[22:04:14] [Server thread/INFO]: CONSOLE: Reload complete.
+[22:04:14] [Server thread/INFO]: Timings Reset
+[22:04:14] [Craft Scheduler Thread - 25 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:04:15] [Craft Scheduler Thread - 25 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[22:04:15] [Craft Scheduler Thread - 25 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[22:04:17] [Server thread/INFO]: Roh4n issued server command: /startgame
+[22:04:17] [Server thread/INFO]: 
+
+Game starting in 10 seconds!
+[22:04:18] [Server thread/INFO]: 
+
+Game starting in 9 seconds!
+[22:04:18] [Server thread/INFO]: Roh4n issued server command: /join
+[22:04:19] [Server thread/INFO]: 
+
+Game starting in 8 seconds!
+[22:04:20] [Server thread/INFO]: 
+
+Game starting in 7 seconds!
+[22:04:21] [Server thread/INFO]: 
+
+Game starting in 6 seconds!
+[22:04:22] [Server thread/INFO]: 
+
+Game starting in 5 seconds!
+[22:04:23] [Server thread/INFO]: 
+
+Game starting in 4 seconds!
+[22:04:24] [Server thread/INFO]: 
+
+Game starting in 3 seconds!
+[22:04:25] [Server thread/INFO]: 
+
+Game starting in 2 seconds!
+[22:04:26] [Server thread/INFO]: 
+
+Game starting in 1 seconds!
+[22:04:32] [Server thread/INFO]: Roh4n won the round!
+[22:04:32] [Server thread/WARN]: Roh4n moved too quickly! -12.798623335615673,61.1344474441335,-35.9188386992724
+[22:04:53] [Server thread/INFO]: Roh4n issued server command: /stopgame
+[22:04:53] [Server thread/WARN]: Roh4n moved too quickly! -16.49605493292644,0.0,68.53993750621183
+[22:07:13] [Server thread/INFO]: Roh4n issued server command: /reload
+[22:07:13] [Server thread/INFO]: Roh4n: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[22:07:15] [Server thread/INFO]: Roh4n issued server command: /rl confirm
+[22:07:15] [Server thread/INFO]: Roh4n: Please note that this command is not supported and may cause issues when using some plugins.
+[22:07:15] [Server thread/INFO]: Roh4n: If you encounter any issues please use the /stop command to restart your server.
+[22:07:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:07:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:07:15] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[22:07:15] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[22:07:16] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[22:07:16] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[22:07:16] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[22:07:16] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[22:07:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:07:16] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:07:16] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[22:07:16] [Server thread/INFO]: Loaded 7 recipes
+[22:07:16] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[22:07:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[22:07:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@d64377c]
+[22:07:16] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[22:07:16] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[22:07:16] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[22:07:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:07:16] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:07:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:07:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:07:16] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[22:07:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[22:07:17] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[22:07:17] [Server thread/INFO]: [Game] [STDOUT] Woohoo! my plugin has started!!!
+[22:07:17] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[22:07:17] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[22:07:17] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[22:07:17] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:07:17] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:07:17] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:07:17] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:07:17] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:07:17] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:07:17] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:07:17] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[22:07:17] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[22:07:17] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[22:07:17] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[22:07:17] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[22:07:17] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[22:07:17] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[22:07:17] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[22:07:17] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:07:17] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:07:17] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[22:07:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[22:07:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[22:07:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1018)
+[22:07:17] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:909)
+[22:07:17] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[22:07:17] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[22:07:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:2376)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleChatCommand$18(PlayerConnection.java:2147)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1358)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bh(MinecraftServer.java:1335)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1328)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:136)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1306)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1191)
+[22:07:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[22:07:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:07:17] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[22:07:17] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[22:07:17] [Server thread/INFO]: --------------------
+[22:07:17] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[22:07:17] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[22:07:17] [Server thread/INFO]: --------------------
+[22:07:17] [Server thread/INFO]: Roh4n: Reload complete.
+[22:07:17] [Server thread/INFO]: Timings Reset
+[22:07:17] [Craft Scheduler Thread - 29 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:07:17] [Craft Scheduler Thread - 29 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[22:07:17] [Craft Scheduler Thread - 29 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[22:07:22] [Server thread/INFO]: Roh4n issued server command: /startgame
+[22:07:22] [Server thread/INFO]: 
+
+Game starting in 10 seconds!
+[22:07:23] [Server thread/INFO]: 
+
+Game starting in 9 seconds!
+[22:07:24] [Server thread/INFO]: Roh4n issued server command: /join
+[22:07:24] [Server thread/INFO]: 
+
+Game starting in 8 seconds!
+[22:07:25] [Server thread/INFO]: 
+
+Game starting in 7 seconds!
+[22:07:26] [Server thread/INFO]: 
+
+Game starting in 6 seconds!
+[22:07:27] [Server thread/INFO]: 
+
+Game starting in 5 seconds!
+[22:07:28] [Server thread/INFO]: 
+
+Game starting in 4 seconds!
+[22:07:29] [Server thread/INFO]: 
+
+Game starting in 3 seconds!
+[22:07:30] [Server thread/INFO]: 
+
+Game starting in 2 seconds!
+[22:07:31] [Server thread/INFO]: 
+
+Game starting in 1 seconds!
+[22:07:38] [Server thread/INFO]: Roh4n won the round!
+[22:07:38] [Server thread/WARN]: Roh4n moved too quickly! -5.505766645496209,62.0131506035943,-47.60638058437627
+[22:07:42] [Server thread/INFO]: Roh4n won the round!
+[22:07:42] [Server thread/WARN]: Roh4n moved too quickly! -10.306772041585006,81.0,-12.936932156049522
+[22:07:49] [Server thread/INFO]: Roh4n won the game!
+[22:07:49] [Server thread/ERROR]: Could not pass event RoundEndEvent to Game vALPHA1.0
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at com.rohanluke.events.EventManager.roundEndEvent(EventManager.java:154) ~[game-ALPHA1.0.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor478.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:git-Paper-58]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:664) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at com.rohanluke.events.EventManager.playerDead(EventManager.java:130) ~[game-ALPHA1.0.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor480.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:git-Paper-58]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:664) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at com.rohanluke.events.EventManager.onPlayerMove(EventManager.java:121) ~[game-ALPHA1.0.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor474.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:git-Paper-58]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:664) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1535) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:29) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:66) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.19.jar:git-Paper-58]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1358) ~[paper-1.19.jar:git-Paper-58]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183) ~[paper-1.19.jar:git-Paper-58]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1335) ~[paper-1.19.jar:git-Paper-58]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1328) ~[paper-1.19.jar:git-Paper-58]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1306) ~[paper-1.19.jar:git-Paper-58]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1191) ~[paper-1.19.jar:git-Paper-58]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302) ~[paper-1.19.jar:git-Paper-58]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[22:07:49] [Server thread/WARN]: Roh4n moved too quickly! 44.34611230262765,-18.6359232886375,19.374556408877794
+[22:11:45] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[22:11:45] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[22:11:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:11:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:11:45] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[22:11:45] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[22:11:46] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[22:11:46] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[22:11:46] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[22:11:46] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[22:11:46] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:11:46] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:11:46] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[22:11:47] [Server thread/INFO]: Loaded 7 recipes
+[22:11:47] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[22:11:47] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[22:11:47] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@48e9b98d]
+[22:11:47] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[22:11:47] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[22:11:47] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[22:11:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:11:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:11:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:11:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:11:47] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[22:11:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[22:11:47] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[22:11:47] [Server thread/INFO]: [Game] [STDOUT] Woohoo! my plugin has started!!!
+[22:11:47] [Server thread/WARN]: Nag author(s): '[Rohan, Luke]' of 'Game' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[22:11:47] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[22:11:47] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[22:11:47] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[22:11:48] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:11:48] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:11:48] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:11:48] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:11:48] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:11:48] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:11:48] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:11:48] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[22:11:48] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[22:11:48] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[22:11:48] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[22:11:48] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[22:11:48] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[22:11:48] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[22:11:48] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[22:11:48] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:11:48] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:11:48] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[22:11:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[22:11:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[22:11:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1018)
+[22:11:48] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:909)
+[22:11:48] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[22:11:48] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[22:11:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[22:11:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872)
+[22:11:48] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bg(DedicatedServer.java:473)
+[22:11:48] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:447)
+[22:11:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1414)
+[22:11:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1187)
+[22:11:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[22:11:48] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:11:48] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[22:11:48] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[22:11:48] [Server thread/INFO]: --------------------
+[22:11:48] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[22:11:48] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[22:11:48] [Server thread/INFO]: --------------------
+[22:11:48] [Server thread/INFO]: CONSOLE: Reload complete.
+[22:11:48] [Server thread/INFO]: Timings Reset
+[22:11:48] [Craft Scheduler Thread - 33 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:11:48] [Craft Scheduler Thread - 33 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[22:11:48] [Craft Scheduler Thread - 33 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[22:11:50] [Server thread/INFO]: Roh4n issued server command: /startgame
+[22:11:50] [Server thread/INFO]: 
+
+Game starting in 10 seconds!
+[22:11:51] [Server thread/INFO]: 
+
+Game starting in 9 seconds!
+[22:11:52] [Server thread/INFO]: Roh4n issued server command: /join
+[22:11:52] [Server thread/INFO]: 
+
+Game starting in 8 seconds!
+[22:11:53] [Server thread/INFO]: 
+
+Game starting in 7 seconds!
+[22:11:54] [Server thread/INFO]: 
+
+Game starting in 6 seconds!
+[22:11:55] [Server thread/INFO]: 
+
+Game starting in 5 seconds!
+[22:11:56] [Server thread/INFO]: 
+
+Game starting in 4 seconds!
+[22:11:57] [Server thread/INFO]: 
+
+Game starting in 3 seconds!
+[22:11:58] [Server thread/INFO]: 
+
+Game starting in 2 seconds!
+[22:11:59] [Server thread/INFO]: 
+
+Game starting in 1 seconds!
+[22:12:07] [Server thread/INFO]: Roh4n won the round!
+[22:12:07] [Server thread/WARN]: Roh4n moved too quickly! -9.959479155317652,62.1344474441335,-35.943478657433545
+[22:12:15] [Server thread/INFO]: Roh4n won the round!
+[22:12:15] [Server thread/WARN]: Roh4n moved too quickly! -7.153961283472384,61.3640767113625,-12.10500810352093
+[22:12:22] [Server thread/INFO]: Roh4n won the game!
+[22:12:22] [Server thread/WARN]: Roh4n moved too quickly! 56.07919806631975,-16.338613539987307,-29.528760095456533
+[22:26:56] [Server thread/INFO]: CONSOLE: Usage: /reload [permissions|commands|confirm]
+[22:26:57] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[22:26:57] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[22:26:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:26:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:26:57] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[22:26:57] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[22:26:58] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[22:26:58] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[22:26:58] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[22:26:58] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[22:26:58] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:26:58] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:26:58] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[22:26:59] [Server thread/INFO]: Loaded 7 recipes
+[22:26:59] [Server thread/ERROR]: Could not load 'plugins\game-ALPHA1.0.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.IllegalArgumentException
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:410) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:318) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:421) ~[paper-1.19.jar:git-Paper-58]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1016) ~[paper-1.19.jar:git-Paper-58]
+	at org.bukkit.Bukkit.reload(Bukkit.java:909) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909) ~[paper-1.19.jar:git-Paper-58]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872) ~[paper-1.19.jar:git-Paper-58]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:473) ~[paper-1.19.jar:git-Paper-58]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.19.jar:git-Paper-58]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1414) ~[paper-1.19.jar:git-Paper-58]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1187) ~[paper-1.19.jar:git-Paper-58]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302) ~[paper-1.19.jar:git-Paper-58]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.IllegalArgumentException
+	at java.util.PriorityQueue.<init>(PriorityQueue.java:174) ~[?:?]
+	at com.rohanluke.utils.PQ.<init>(PQ.java:9) ~[game-ALPHA1.0.jar:?]
+	at com.rohanluke.game.Main.<init>(Main.java:30) ~[game-ALPHA1.0.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128) ~[?:?]
+	at jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:341) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:677) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:83) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[22:26:59] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[22:26:59] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@141b5f25]
+[22:26:59] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[22:26:59] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[22:26:59] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[22:26:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:26:59] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:26:59] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:26:59] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:26:59] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[22:26:59] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[22:26:59] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[22:26:59] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[22:26:59] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[22:26:59] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:26:59] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:27:00] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:27:00] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:27:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:27:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:27:00] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:27:00] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[22:27:00] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[22:27:00] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[22:27:00] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[22:27:00] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[22:27:00] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[22:27:00] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[22:27:00] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[22:27:00] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:27:00] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:27:00] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[22:27:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[22:27:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[22:27:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1018)
+[22:27:00] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:909)
+[22:27:00] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[22:27:00] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[22:27:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[22:27:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872)
+[22:27:00] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bg(DedicatedServer.java:473)
+[22:27:00] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:447)
+[22:27:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1414)
+[22:27:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1187)
+[22:27:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[22:27:00] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:27:00] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[22:27:00] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[22:27:00] [Server thread/INFO]: --------------------
+[22:27:00] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[22:27:00] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[22:27:00] [Server thread/INFO]: --------------------
+[22:27:00] [Server thread/INFO]: CONSOLE: Reload complete.
+[22:27:00] [Server thread/INFO]: Timings Reset
+[22:27:00] [Craft Scheduler Thread - 37 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:27:00] [Craft Scheduler Thread - 37 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[22:27:00] [Craft Scheduler Thread - 37 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[22:27:02] [Server thread/INFO]: Roh4n issued server command: /clear
+[22:27:03] [Server thread/INFO]: Roh4n issued server command: /startgame
+[22:27:05] [Server thread/INFO]: Roh4n issued server command: /startgame
+[22:27:55] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[22:27:55] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[22:27:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:27:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:27:55] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[22:27:55] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[22:27:56] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[22:27:56] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[22:27:56] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[22:27:56] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[22:27:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:27:56] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:27:56] [Server thread/INFO]: Loaded 7 recipes
+[22:27:56] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[22:27:56] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[22:27:57] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7e5f1f2e]
+[22:27:57] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[22:27:57] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[22:27:57] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[22:27:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:27:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:27:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:27:57] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:27:57] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[22:27:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[22:27:57] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[22:27:57] [Server thread/INFO]: [Game] [STDOUT] Woohoo! my plugin has started!!!
+[22:27:57] [Server thread/WARN]: Nag author(s): '[Rohan, Luke]' of 'Game' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[22:27:57] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[22:27:57] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[22:27:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[22:27:57] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:27:57] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:27:57] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:27:57] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:27:57] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:27:57] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:27:57] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:27:57] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[22:27:57] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[22:27:57] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[22:27:57] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[22:27:57] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[22:27:57] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[22:27:57] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[22:27:57] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[22:27:57] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:27:57] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:27:57] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[22:27:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[22:27:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[22:27:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1018)
+[22:27:57] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:909)
+[22:27:57] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[22:27:57] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[22:27:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[22:27:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872)
+[22:27:57] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bg(DedicatedServer.java:473)
+[22:27:57] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:447)
+[22:27:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1414)
+[22:27:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1187)
+[22:27:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[22:27:57] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:27:57] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[22:27:57] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[22:27:57] [Server thread/INFO]: --------------------
+[22:27:57] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[22:27:57] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[22:27:57] [Server thread/INFO]: --------------------
+[22:27:57] [Server thread/INFO]: CONSOLE: Reload complete.
+[22:27:57] [Server thread/INFO]: Timings Reset
+[22:27:57] [Craft Scheduler Thread - 41 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:27:58] [Craft Scheduler Thread - 41 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[22:27:58] [Craft Scheduler Thread - 41 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[22:28:20] [Server thread/INFO]: Roh4n issued server command: /startgame
+[22:28:20] [Server thread/INFO]: 
+
+Game starting in 10 seconds!
+[22:28:21] [Server thread/INFO]: 
+
+Game starting in 9 seconds!
+[22:28:22] [Server thread/INFO]: Roh4n issued server command: /join
+[22:28:22] [Server thread/INFO]: 
+
+Game starting in 8 seconds!
+[22:28:23] [Server thread/INFO]: 
+
+Game starting in 7 seconds!
+[22:28:24] [Server thread/INFO]: 
+
+Game starting in 6 seconds!
+[22:28:25] [Server thread/INFO]: 
+
+Game starting in 5 seconds!
+[22:28:26] [Server thread/INFO]: 
+
+Game starting in 4 seconds!
+[22:28:27] [Server thread/INFO]: 
+
+Game starting in 3 seconds!
+[22:28:28] [Server thread/INFO]: 
+
+Game starting in 2 seconds!
+[22:28:29] [Server thread/INFO]: 
+
+Game starting in 1 seconds!
+[22:28:38] [Server thread/INFO]: Roh4n won the round!
+[22:28:38] [Server thread/WARN]: Roh4n moved too quickly! -46.7651378122158,61.3640767113625,36.97700425181009
+[22:28:45] [Server thread/INFO]: Roh4n won the round!
+[22:28:45] [Server thread/WARN]: Roh4n moved too quickly! -32.398970702500094,61.71182412090141,-33.4023710160578
+[22:28:52] [Server thread/INFO]: Roh4n won the game!
+[22:28:52] [Server thread/WARN]: Roh4n moved too quickly! 41.29018722801064,-19.883145800402247,-134.93780185538557
+[22:32:48] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[22:32:50] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[22:32:50] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[22:32:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:32:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:32:50] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[22:32:50] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[22:32:51] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[22:32:51] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[22:32:51] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[22:32:51] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[22:32:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:32:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:32:51] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[22:32:51] [Server thread/INFO]: Loaded 7 recipes
+[22:32:51] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[22:32:51] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[22:32:51] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1247956e]
+[22:32:51] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[22:32:51] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[22:32:51] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[22:32:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:32:51] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:32:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:32:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:32:52] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[22:32:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[22:32:52] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[22:32:52] [Server thread/INFO]: [Game] [STDOUT] Woohoo! my plugin has started!!!
+[22:32:52] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[22:32:52] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[22:32:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[22:32:52] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:32:52] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:32:52] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:32:52] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:32:52] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:32:52] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:32:52] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:32:52] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[22:32:52] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[22:32:52] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[22:32:52] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[22:32:52] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[22:32:52] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[22:32:52] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[22:32:52] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[22:32:52] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:32:52] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:32:52] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[22:32:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[22:32:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[22:32:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1018)
+[22:32:52] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:909)
+[22:32:52] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[22:32:52] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[22:32:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[22:32:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872)
+[22:32:52] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bg(DedicatedServer.java:473)
+[22:32:52] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:447)
+[22:32:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1414)
+[22:32:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1187)
+[22:32:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[22:32:52] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:32:52] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[22:32:52] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[22:32:52] [Server thread/INFO]: --------------------
+[22:32:52] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[22:32:52] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[22:32:52] [Server thread/INFO]: --------------------
+[22:32:52] [Server thread/INFO]: CONSOLE: Reload complete.
+[22:32:52] [Server thread/INFO]: Timings Reset
+[22:32:52] [Craft Scheduler Thread - 45 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:32:52] [Craft Scheduler Thread - 45 - Essentials/WARN]: [Essentials] You're 5 EssentialsX dev build(s) out of date!
+[22:32:52] [Craft Scheduler Thread - 45 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[22:32:58] [Server thread/INFO]: Roh4n issued server command: /time set day
+[22:32:59] [Server thread/INFO]: Roh4n issued server command: /startgame
+[22:32:59] [Server thread/INFO]: 
+
+Game starting in 10 seconds!
+[22:33:00] [Server thread/INFO]: 
+
+Game starting in 9 seconds!
+[22:33:01] [Server thread/INFO]: 
+
+Game starting in 8 seconds!
+[22:33:02] [Server thread/INFO]: Roh4n issued server command: /join
+[22:33:02] [Server thread/INFO]: 
+
+Game starting in 7 seconds!
+[22:33:03] [Server thread/INFO]: 
+
+Game starting in 6 seconds!
+[22:33:04] [Server thread/INFO]: 
+
+Game starting in 5 seconds!
+[22:33:05] [Server thread/INFO]: 
+
+Game starting in 4 seconds!
+[22:33:06] [Server thread/INFO]: 
+
+Game starting in 3 seconds!
+[22:33:07] [Server thread/INFO]: 
+
+Game starting in 2 seconds!
+[22:33:08] [Server thread/INFO]: 
+
+Game starting in 1 seconds!
+[22:33:18] [Server thread/INFO]: Roh4n won the round!
+[22:33:18] [Server thread/WARN]: Roh4n moved too quickly! 2.516414409232759,61.3640767113625,11.097771753940549
+[22:33:18] [Server thread/WARN]: Roh4n moved too quickly! 2.516414409232759,61.3640767113625,11.097771753940549
+[22:33:18] [Server thread/WARN]: Roh4n moved too quickly! 2.516414409232759,61.3640767113625,11.097771753940549
+[22:33:18] [Server thread/WARN]: Roh4n moved too quickly! 2.516414409232759,61.3640767113625,11.097771753940549
+[22:33:18] [Server thread/WARN]: Roh4n moved too quickly! 2.516414409232759,61.3640767113625,11.097771753940549
+[22:33:22] [Server thread/INFO]: Roh4n won the round!
+[22:33:33] [Server thread/INFO]: Roh4n won the game!
+[22:33:33] [Server thread/WARN]: Roh4n moved too quickly! 64.00878944448493,-18.635659745101236,-120.38361457258483
+[22:33:34] [Server thread/INFO]: Roh4n fell from a high place
+[22:33:57] [Server thread/INFO]: Roh4n issued server command: /startgame
+[22:33:57] [Server thread/INFO]: 
+
+Game starting in 10 seconds!
+[22:33:58] [Server thread/INFO]: 
+
+Game starting in 9 seconds!
+[22:33:59] [Server thread/INFO]: Roh4n issued server command: /join
+[22:33:59] [Server thread/INFO]: 
+
+Game starting in 8 seconds!
+[22:34:00] [Server thread/INFO]: 
+
+Game starting in 7 seconds!
+[22:34:01] [Server thread/INFO]: 
+
+Game starting in 6 seconds!
+[22:34:02] [Server thread/INFO]: 
+
+Game starting in 5 seconds!
+[22:34:03] [Server thread/INFO]: 
+
+Game starting in 4 seconds!
+[22:34:04] [Server thread/INFO]: 
+
+Game starting in 3 seconds!
+[22:34:05] [Server thread/INFO]: 
+
+Game starting in 2 seconds!
+[22:34:06] [Server thread/INFO]: 
+
+Game starting in 1 seconds!
+[22:34:12] [Server thread/INFO]: Roh4n won the game!
+[22:34:12] [Server thread/WARN]: Roh4n moved too quickly! 5.986051111158545,-0.7436436186836204,-43.65996389710803
+[22:34:13] [Server thread/INFO]: Roh4n fell from a high place
+[22:35:19] [Server thread/INFO]: Roh4n issued server command: /reload
+[22:35:19] [Server thread/INFO]: Roh4n: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[22:35:22] [Server thread/INFO]: Roh4n issued server command: /rl confirm
+[22:35:22] [Server thread/INFO]: Roh4n: Please note that this command is not supported and may cause issues when using some plugins.
+[22:35:22] [Server thread/INFO]: Roh4n: If you encounter any issues please use the /stop command to restart your server.
+[22:35:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:35:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:35:22] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[22:35:22] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[22:35:22] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[22:35:22] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[22:35:22] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[22:35:22] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[22:35:22] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:35:22] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:35:22] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[22:35:22] [Server thread/INFO]: Loaded 7 recipes
+[22:35:23] [Server thread/INFO]: [Game] Loading Game vALPHA1.0
+[22:35:23] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[22:35:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@15ab1762]
+[22:35:23] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.7
+[22:35:23] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+23-6816eb4
+[22:35:23] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[22:35:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:35:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:35:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:35:23] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:35:23] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[22:35:23] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[22:35:23] [Server thread/INFO]: [Game] Enabling Game vALPHA1.0
+[22:35:23] [Server thread/INFO]: [Game] [STDOUT] Woohoo! my plugin has started!!!
+[22:35:23] [Server thread/WARN]: Nag author(s): '[Rohan, Luke]' of 'Game' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[22:35:23] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.7
+[22:35:23] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[22:35:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+23-6816eb4
+[22:35:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:35:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:35:23] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:35:23] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:35:23] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:35:23] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:35:23] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:35:23] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[22:35:23] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[22:35:23] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[22:35:23] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[22:35:23] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:784)
+[22:35:23] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[22:35:23] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[22:35:23] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[22:35:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:35:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:35:23] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[22:35:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[22:35:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[22:35:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.reload(CraftServer.java:1018)
+[22:35:23] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:909)
+[22:35:23] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[22:35:23] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[22:35:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:2376)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleChatCommand$18(PlayerConnection.java:2147)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1358)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bh(MinecraftServer.java:1335)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1328)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.bq(IAsyncTaskHandler.java:114)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1462)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1187)
+[22:35:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[22:35:23] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:35:23] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[22:35:23] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[22:35:23] [Server thread/INFO]: --------------------
+[22:35:23] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[22:35:23] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[22:35:23] [Server thread/INFO]: --------------------
+[22:35:24] [Server thread/INFO]: Roh4n: Reload complete.
+[22:35:24] [Server thread/INFO]: Timings Reset
+[22:35:24] [Craft Scheduler Thread - 49 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:35:24] [Craft Scheduler Thread - 49 - Essentials/WARN]: [Essentials] You're 5 EssentialsX dev build(s) out of date!
+[22:35:24] [Craft Scheduler Thread - 49 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[22:35:27] [Server thread/INFO]: Roh4n issued server command: /startgame
+[22:35:27] [Server thread/INFO]: 
+
+Game starting in 10 seconds!
+[22:35:28] [Server thread/INFO]: 
+
+Game starting in 9 seconds!
+[22:35:29] [Server thread/INFO]: 
+
+Game starting in 8 seconds!
+[22:35:29] [Server thread/INFO]: Roh4n issued server command: /join
+[22:35:30] [Server thread/INFO]: 
+
+Game starting in 7 seconds!
+[22:35:31] [Server thread/INFO]: 
+
+Game starting in 6 seconds!
+[22:35:32] [Server thread/INFO]: 
+
+Game starting in 5 seconds!
+[22:35:33] [Server thread/INFO]: 
+
+Game starting in 4 seconds!
+[22:35:34] [Server thread/INFO]: 
+
+Game starting in 3 seconds!
+[22:35:35] [Server thread/INFO]: 
+
+Game starting in 2 seconds!
+[22:35:36] [Server thread/INFO]: 
+
+Game starting in 1 seconds!
+[22:36:42] [Server thread/INFO]: Roh4n won the round!
+[22:36:42] [Server thread/WARN]: Roh4n moved too quickly! -43.040919491512796,61.25937264282541,-43.040919491512796
+[22:36:45] [Server thread/WARN]: Roh4n moved wrongly!
+[22:36:47] [Server thread/WARN]: Roh4n moved wrongly!
+[22:36:51] [Server thread/INFO]: Roh4n won the round!
+[22:36:51] [Server thread/WARN]: Roh4n moved too quickly! -43.27463150872619,62.73683052520221,-44.26344523049684
+[22:36:58] [Server thread/INFO]: Roh4n won the game!
+[22:36:58] [Server thread/WARN]: Roh4n moved too quickly! -1.5958360752254634,-8.276113539987307,-50.02356418629846
+[22:36:58] [Server thread/INFO]: Roh4n fell from a high place
+[22:38:41] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:38:42] [Server thread/INFO]: Stopping the server
+[22:38:42] [Server thread/INFO]: Stopping server
+[22:38:42] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[22:38:42] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[22:38:43] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[22:38:43] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+23-6816eb4
+[22:38:43] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.7
+[22:38:43] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:38:43] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:38:43] [Server thread/INFO]: [Game] Disabling Game vALPHA1.0
+[22:38:43] [Server thread/INFO]: Saving players
+[22:38:43] [Server thread/INFO]: Roh4n lost connection: Server closed
+[22:38:43] [Server thread/INFO]: Roh4n left the game
+[22:38:43] [Server thread/INFO]: Saving worlds
+[22:38:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:38:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:38:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:38:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:38:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:38:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:38:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:38:44] [Server thread/INFO]: Flushing Chunk IO
+[22:38:44] [Server thread/INFO]: Closing Thread Pool
+[22:38:44] [Server thread/INFO]: Closing Server
