@@ -3,6 +3,7 @@ package com.rohanluke.events;
 import com.rohanluke.commands.StopGameCommand;
 import com.rohanluke.game.GameState;
 import com.rohanluke.game.Main;
+import com.rohanluke.repeatingtasks.SnowballAimbotTask;
 import com.rohanluke.repeatingtasks.StartRoundTask;
 import com.rohanluke.utils.Pair;
 import com.rohanluke.utils.Utils;
@@ -24,6 +25,10 @@ import org.bukkit.event.player.PlayerFishEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.event.player.PlayerTeleportEvent;
 import org.bukkit.util.Vector;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
 
 public class EventManager implements Listener {
 
@@ -49,52 +54,91 @@ public class EventManager implements Listener {
     @EventHandler
     public void onPlayerFish(PlayerFishEvent e) {
         if (main.gameState == GameState.OFF || main.gameState == GameState.ROUND_STARTING) return;
-        if ((e.getState() == PlayerFishEvent.State.REEL_IN || e.getState() == PlayerFishEvent.State.IN_GROUND || e.getState() == PlayerFishEvent.State.CAUGHT_ENTITY) && main.playersOnFishingCD.containsKey(e.getPlayer())) {
-            Utils.alertPlayerOfCooldown(main.playersOnFishingCD, e.getPlayer());
+        if ((e.getState() == PlayerFishEvent.State.REEL_IN || e.getState() == PlayerFishEvent.State.IN_GROUND || e.getState() == PlayerFishEvent.State.CAUGHT_ENTITY) && main.playersOnFishingCD.asMap().containsKey(e.getPlayer())) {
+            Utils.alertPlayerOfCooldown(main.playersOnFishingCD.asMap(), e.getPlayer());
             return;
         }
         if (e.getState() == PlayerFishEvent.State.REEL_IN || e.getState() == PlayerFishEvent.State.IN_GROUND) {
             Player p = e.getPlayer();
             sendPlayer(p, p.getLocation(), e.getHook().getLocation(), false);
-            main.playersOnFishingCD.put(e.getPlayer(), 5.0);
+            main.playersOnFishingCD.put(e.getPlayer(), System.currentTimeMillis() + 4000);
         }
         else if (e.getState() == PlayerFishEvent.State.CAUGHT_ENTITY) {
             if (e.getHook().getHookedEntity() instanceof Player) {
                 Player p = (Player)e.getHook().getHookedEntity();
-                Location newLocation = p.getLocation();
-                newLocation.setY(newLocation.getY() + 1);
-                p.teleport(newLocation);
                 sendPlayer(p, e.getPlayer().getLocation(), p.getLocation(), true);
             } else {
                 Player p = e.getPlayer();
                 sendPlayer(p, p.getLocation(), e.getHook().getLocation(), false);
             }
-            main.playersOnFishingCD.put(e.getPlayer(), 5.0);
+            main.playersOnFishingCD.put(e.getPlayer(), System.currentTimeMillis() + 4000);
         }
     }
 
     public void sendPlayer(Player p, Location from, Location to, boolean flag) {
+//        Location newLoc = p.getLocation();
+//        newLoc.setY(newLoc.getY() + 1);
+//        p.teleport(newLoc);
         Vector dir = new Vector(to.getX() - from.getX(), 0.25, to.getZ() - from.getZ());
         p.setVelocity(dir.multiply(flag ? -4 : 2));
     }
 
     @EventHandler
-    public void onPlayerSnowball(ProjectileHitEvent e) {
+    public void snowballThrow(ProjectileLaunchEvent e) {
+        if (main.gameState == GameState.OFF || main.gameState == GameState.ROUND_STARTING || !(e.getEntity() instanceof Snowball)) return;
+        Snowball s = (Snowball) e.getEntity();
+        if (!(s.getShooter() instanceof Player)) return;
+        Player shooter = (Player) s.getShooter();
+        if (!allSnowballsDead(shooter)) {
+            e.setCancelled(true);
+            return;
+        } else {
+            if (main.playersThrownSnowball.containsKey(shooter)) {
+                for (Snowball s1 : main.playersThrownSnowball.get(shooter)) {
+                    s1.remove();
+                }
+                main.playersThrownSnowball.remove(shooter);
+            }
+        }
+        if (!main.playersThrownSnowball.containsKey(shooter)) {
+            main.playersThrownSnowball.put(shooter, new ArrayList<>(Collections.singletonList(s)));
+        } else {
+            main.playersThrownSnowball.get(shooter).add(s);
+        }
+        new SnowballAimbotTask(main, 0L, 1L, s, shooter).start();
+    }
+
+    private boolean allSnowballsDead(Player p) {
+        if (!main.playersThrownSnowball.containsKey(p)) return true;
+        for (Snowball s : main.playersThrownSnowball.get(p)) {
+            if (!s.isDead()) return false;
+        }
+        return true;
+    }
+
+    @EventHandler
+    public void onHit(ProjectileHitEvent e) {
         if (main.gameState == GameState.OFF || main.gameState == GameState.ROUND_STARTING) return;
         if (e.getEntity() instanceof Snowball) {
             Snowball s = (Snowball) e.getEntity();
             if (s.getShooter() instanceof Player && e.getHitEntity() instanceof Player) {
                 Player p1 = (Player)s.getShooter();
-                if (main.playersOnSnowballCD.containsKey(p1)) {
+                if (main.playersOnSnowballCD.asMap().containsKey(p1)) {
                     e.setCancelled(true);
-                    Utils.alertPlayerOfCooldown(main.playersOnSnowballCD, p1);
+                    if (main.playersThrownSnowball.containsKey(p1)) {
+                        for (Snowball s1 : main.playersThrownSnowball.get(p1)) {
+                            s1.remove();
+                        }
+                    }
+                    Utils.alertPlayerOfCooldown(main.playersOnSnowballCD.asMap(), p1);
                     return;
                 }
                 Player p2 = (Player)e.getHitEntity();
                 Location l1 = p1.getLocation();
                 p1.teleport(p2.getLocation());
                 p2.teleport(l1);
-                main.playersOnSnowballCD.put(p1, 16.0);
+                main.playersOnSnowballCD.put(p1, System.currentTimeMillis() + 8000);
+                main.playersThrownSnowball.remove(p1);
             }
         }
     }
@@ -143,18 +187,30 @@ public class EventManager implements Listener {
 
     @EventHandler
     public void roundEndEvent(RoundEndEvent e) {
-        if (main.roundNumber == 2) {
-            assert main.roundsWonByPlayers.peek() != null;
-            Player winner = main.roundsWonByPlayers.peek().first;
-            Bukkit.broadcastMessage(ChatColor.GREEN + "" + ChatColor.BOLD + winner.getDisplayName() + " won the game!");
+        Player winner = null;
+        if (main.playersDead.size() == main.playersJoined.size()) {
+            winner = e.getPlayer();
+        } else {
+            for (Player p : main.playersJoined.keySet()) {
+                if (!main.playersDead.contains(p)) winner = p;
+            }
+        }
+        assert winner != null;
+        Integer oldScore = main.roundsWonByPlayers.get(winner);
+        main.roundsWonByPlayers.replace(winner, oldScore + 1);
+        main.roundNumber++;
+        Pair<Player, Integer> maxWins = new Pair<>(null, -1);
+        for (HashMap.Entry<Player, Integer> entry : main.roundsWonByPlayers.entrySet()) {
+            if (entry.getValue() > maxWins.second) {
+                maxWins.second = entry.getValue();
+                maxWins.first = entry.getKey();
+            }
+        }
+        if (maxWins.second == 3) {
+            Bukkit.broadcastMessage(ChatColor.GREEN + "" + ChatColor.BOLD + maxWins.first.getDisplayName() + " won the game!");
             StopGameCommand.stopAll(main);
             return;
         }
-        Player winner = e.getWinner();
-        Integer oldScore = main.roundsWonByPlayers.get(winner);
-        main.roundsWonByPlayers.remove(new Pair<>(winner, oldScore));
-        main.roundsWonByPlayers.add(new Pair<>(winner, oldScore+1));
-        main.roundNumber++;
         Bukkit.broadcastMessage(ChatColor.GREEN + winner.getDisplayName() + " won the round!");
         new StartRoundTask(main, 0L, 20L).start();
     }
@@ -171,11 +227,11 @@ public class EventManager implements Listener {
         if (main.gameState == GameState.OFF) return;
         if (!(e.getEntity() instanceof EnderPearl) || !(e.getEntity().getShooter() instanceof Player)) return;
         Player shooter = (Player)e.getEntity().getShooter();
-        if (main.playersOnPearlCD.containsKey(shooter)) {
+        if (main.playersOnPearlCD.asMap().containsKey(shooter)) {
             e.setCancelled(true);
-            Utils.alertPlayerOfCooldown(main.playersOnPearlCD, shooter);
+            Utils.alertPlayerOfCooldown(main.playersOnPearlCD.asMap(), shooter);
             return;
         }
-        main.playersOnPearlCD.put((Player)e.getEntity().getShooter(), 16.0);
+        main.playersOnPearlCD.put((Player)e.getEntity().getShooter(), System.currentTimeMillis() + 10000);
     }
 }

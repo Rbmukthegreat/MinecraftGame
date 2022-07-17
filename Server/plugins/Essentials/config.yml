@@ -24,7 +24,7 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+ you can use hex color codes here as well. (For example, #613e1d is brown).
-ops-name-color: '4'
+ops-name-color: '3'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 nickname-prefix: '~'
@@ -75,11 +75,11 @@ change-tab-complete-name: false
 # If the teleport destination is unsafe, should players be teleported to the nearest safe location?
 # If this is set to true, Essentials will attempt to teleport players close to the intended destination.
 # If this is set to false, attempted teleports to unsafe locations will be cancelled with a warning.
-teleport-safety: true
+teleport-safety: false
 
 # This forcefully disables teleport safety checks without a warning if attempting to teleport to unsafe locations.
 # teleport-safety and this option need to be set to true to force teleportation to dangerous locations.
-force-disable-teleport-safety: false
+force-disable-teleport-safety: true
 
 # If a player is teleporting to an unsafe location in creative, adventure, or god mode; they will not be teleported to a
 # safe location. If you'd like players to be teleported to a safe location all of the time, set this option to true.
@@ -98,7 +98,7 @@ teleport-delay: 0
 
 # The delay, in seconds, a player can't be attacked by other players after they have been teleported by a command.
 # This will also prevent the player attacking other players.
-teleport-invulnerability: 4
+teleport-invulnerability: 0
 
 # Whether to make all teleportations go to the center of the block; where the x and z coordinates decimal become .5
 teleport-to-center: true

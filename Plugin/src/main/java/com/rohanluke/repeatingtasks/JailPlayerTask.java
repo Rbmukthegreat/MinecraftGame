@@ -31,7 +31,7 @@ public class JailPlayerTask extends GameTask{
     }
 
     @Override
-    public void run() {
+    public void toRun() {
         if (secondsInJail <= 3) {
             constructJail();
         }

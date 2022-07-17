@@ -8,6 +8,9 @@ public class PQ extends PriorityQueue<Pair<Player, Integer>> {
     public PQ(int initialCapacity, PairComparator pairComparator) {
         super(initialCapacity, pairComparator);
     }
+    public PQ(PQ pq) {
+        super(pq);
+    }
 
     public Integer get(Player p) {
         for (Pair<Player, Integer> entry : this) {

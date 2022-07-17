@@ -37,10 +37,11 @@ public class StopGameCommand implements CommandExecutor {
         main.round.stop();
         main.round = null;
         main.gameState = GameState.OFF;
-        main.cooldownTask.stop();
         main.roundsWonByPlayers.clear();
         main.playersDead.clear();
         main.roundNumber = 0;
+        main.spawnLocs.clear();
+        main.gameStarted = false;
         resetAllInventories(main);
     }
 

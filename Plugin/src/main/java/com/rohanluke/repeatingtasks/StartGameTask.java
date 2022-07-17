@@ -1,7 +1,6 @@
 package com.rohanluke.repeatingtasks;
 
 import com.rohanluke.game.Main;
-import com.rohanluke.utils.Pair;
 import net.md_5.bungee.api.chat.ClickEvent;
 import net.md_5.bungee.api.chat.HoverEvent;
 import net.md_5.bungee.api.chat.TextComponent;
@@ -19,7 +18,7 @@ public class StartGameTask extends GameTask {
     }
 
     @Override
-    public void run() {
+    public void toRun() {
         Bukkit.broadcastMessage(ChatColor.GREEN + "\n\nGame starting in " + (10-secondsPassed) + " seconds!");
         secondsPassed++;
         TextComponent join = new TextComponent(ChatColor.LIGHT_PURPLE + "" + ChatColor.UNDERLINE + "Click here to join!");
@@ -30,9 +29,6 @@ public class StartGameTask extends GameTask {
             p.spigot().sendMessage(join);
         }
         if (secondsPassed >= 10) {
-            for (Player p : main.playersJoined.keySet()) {
-                main.roundsWonByPlayers.add(new Pair<>(p, 0));
-            }
             new StartRoundTask(main, 0L, 20L).start();
             stop();
         }

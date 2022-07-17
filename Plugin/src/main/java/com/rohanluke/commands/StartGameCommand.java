@@ -17,10 +17,11 @@ public class StartGameCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (main.gameState == GameState.ROUND_STARTING || main.gameState == GameState.ROUND) {
+        if (main.gameStarted || main.gameState == GameState.ROUND_STARTING || main.gameState == GameState.ROUND) { /// TODO: MAKE NEW ENUM!
             sender.sendMessage(ChatColor.RED + "You can't do that!");
             return false;
         }
+        main.gameStarted = true;
         new StartGameTask(main, 0L, 20L).start();
         return false;
     }

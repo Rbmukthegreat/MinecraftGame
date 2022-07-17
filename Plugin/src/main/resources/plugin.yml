@@ -11,3 +11,5 @@ commands:
   sendTitle:
   jail:
   join:
+  forceJoinAll:
+    description: everybody joins!

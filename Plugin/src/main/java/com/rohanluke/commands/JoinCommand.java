@@ -25,7 +25,7 @@ public class JoinCommand implements CommandExecutor {
             return false;
         }
         Player p = (Player) sender;
-        if (main.playersJoined.entrySet().contains(p)) {
+        if (main.playersJoined.containsKey(p)) {
             p.sendMessage(ChatColor.RED + "You have already joined!");
             return false;
         }
@@ -34,6 +34,7 @@ public class JoinCommand implements CommandExecutor {
         Location oldLoc = p.getLocation();
         main.playersJoined.put(p, new Triplet<>(oldInventory, oldGameMode, oldLoc));
         sender.sendMessage(ChatColor.GREEN + "You joined the game!");
+        main.roundsWonByPlayers.put(p, 0);
         return true;
     }
 }
